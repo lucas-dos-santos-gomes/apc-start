@@ -36,3 +36,48 @@
 .Gold{
     color:#FAB84B;
 }
+
+.btn-sobre{
+    font-size: 22px;
+    font-family: Nunito;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: dashed 1px #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-sobre:hover{
+    transform: scale(1.1);
+}
+
+.btn-acesso{
+    width: 260px;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Nunito;
+    letter-spacing: 1.2px;
+    background-color: #3DBDB8;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-acesso:hover{
+    transform: scale(1.1);
+}
+
+.buttons{
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+.Met-image{
+    margin-top: 90px;
+    
+}
