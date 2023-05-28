@@ -2,8 +2,8 @@ import "../Home-components/Inicio.css"
 
 function Inicio(){
     return(
-        <section>
-        
+        <section id="Iniciosec">
+            <div></div>
         </section>
     )
 }
