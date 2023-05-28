@@ -14,7 +14,7 @@ function Inicio(){
             </div>
 
                 <div class="Met-image">
-                    <img src="https://placehold.co/600x600" alt=""/>
+                    <img src="https://placehold.co/400x400" alt=""/>
                 </div>
         </section>
         </>
