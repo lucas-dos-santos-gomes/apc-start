@@ -1,0 +1,61 @@
+#Metodologiasec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+}
+
+.titulo{
+    margin: auto;
+    font-family: Nunito;
+    color: #FAB84B;
+    font-size: 36px;
+    padding-top: 100px;
+}
+
+.Cont-meto{
+    display: flex;
+}
+
+.Info-meto{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.dados{
+    display: flex;
+    font-family: Nunito;
+    color: #fff;
+    width: 800px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.dados img{
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 14%;
+    height: 100%;
+}
+
+.papo{
+    display: flex;
+    font-family: Nunito;
+    color: #fff;
+    width: 750px;
+    font-size: 25px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.papo img{
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 14%;
+    height: 100%;
+}
+
+.img-meto img{
+    width: 100%;
+}
