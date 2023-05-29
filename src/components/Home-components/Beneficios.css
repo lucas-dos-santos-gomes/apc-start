@@ -1,0 +1,26 @@
+#Beneficiossec{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    text-align: center;
+}
+
+.bene-infos{
+    margin: auto;
+}
+
+.bene-infos h2{
+    font-family: Nunito;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+
+.bene-compo{
+    margin-top: 100px;
+}
+
+.bene-compo img{
+    width: 80%;
+}
