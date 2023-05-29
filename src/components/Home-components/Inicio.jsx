@@ -1,3 +1,4 @@
+import meninasegurandolivro from "../../assets/images/home-img/menina-segurando-livro.png"
 import "../Home-components/Inicio.css"
 
 function Inicio(){
@@ -13,8 +14,8 @@ function Inicio(){
                 </div>
             </div>
 
-                <div class="Met-image">
-                    <img src="https://placehold.co/400x400" alt=""/>
+                <div class="Prin-image">
+                    <img src={meninasegurandolivro} alt=""/>
                 </div>
         </section>
         </>
