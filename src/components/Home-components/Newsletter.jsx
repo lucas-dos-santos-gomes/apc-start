@@ -1,16 +1,16 @@
-import "../Home-components/Ajuda.css"
+import "../Home-components/Newsletter.css"
 
 function Newsletter(){
     return(
         <>
-        <section id="Newsletter">
-            <div class="titulo">
+        <section id="Newslettersec">
+            <div className="titulo">
                 <h1>Assine nossa Newsletter</h1>
             </div>
 
-            <div class="News-email">
+            <div className="News-email">
                 <p>Fique por dentro de todas as novidades.</p>
-                <div class="News-forms">
+                <div className="News-forms">
                     <input type="text" placeholder="Seu e-mail" id="Txtemail"/>
                     <button id="InsBtn">Assinar</button>
                 </div>
