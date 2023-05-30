@@ -1,0 +1,63 @@
+#Ajudasec{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(to right, #190c5e, #371166);
+    text-align: center;
+}
+
+.ajuda-info{
+    font-size: 32px;
+    color: #FAB84B;
+    font-family: Nunito;
+}
+
+.ajuda-info p{
+    margin: auto;
+    font-size: 28px;
+    color: #fff;
+    width: 500px;
+    padding-top: 40px;
+}
+
+.ajuda-contato{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 32px;
+    color: #FAB84B;
+    font-family: Nunito;
+    padding-top: 40px;
+}
+
+.ajuda-contato li{
+    padding-top: 10px;
+}
+
+.ajuda-contato img{
+    align-items: center;
+    width: 5%;
+    height: 3%;
+}
+
+.ajuda-central{
+    margin: auto;
+    font-size: 28px;
+    color: #fff;
+    font-family: Nunito;
+    width: 70%;
+    padding-top: 70px;
+}
+
+.btn-central{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 400px;
+    height: 70px;
+    font-family: Nunito;
+    color: #fff;
+    background-image: linear-gradient(to right, #311063, #55228BC4);
+    border-radius: 50px;
+    border: solid 1px #fff;
+    font-size: 26px;
+    cursor: pointer;
+}

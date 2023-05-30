@@ -1,10 +1,10 @@
-import Test from "./pages/PageTest/index.jsx";
-import "./App.css"
+import Home from './pages/Home'
+import './App.css'
 
 export default function App() {
   return (
     <>
-      <Test />
+     <Home/>
     </>
   )
 }
