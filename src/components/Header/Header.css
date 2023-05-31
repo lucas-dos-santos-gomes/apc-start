@@ -1,0 +1,58 @@
+#header-principal {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    font-family: Nunito;
+    font-size: 22px;
+    transition: .5s;
+  }
+  
+  #header-principal.active {
+    background: #300B51;
+    position: fixed;
+  }
+  
+  #header-principal ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #header-principal ul li {
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  
+  #header-principal ul li:last-child {
+    background-color: rgb(68, 48, 180);
+    transition: .3s;
+  }
+  
+  #header-principal ul li:last-child:hover {
+    transform: scale(1.1);
+  }
+  
+  #header-principal ul li a {
+    display: inline-block;
+    position: relative;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #header-principal ul li a.underline::after {
+    position: absolute;
+    bottom: -3px;
+    left: 1px;
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: #FFF;
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+  
+  #header-principal ul li a:hover::after {
+    width: 100%;
+  }
