@@ -16,7 +16,7 @@
 
 .Cont-meto{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .Info-meto{
@@ -58,7 +58,7 @@
 }
 
 .img-meto{
-    margin-top: 90px;
+    width: 100%;
 }
 
 .img-meto img{

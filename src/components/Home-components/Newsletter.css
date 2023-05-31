@@ -8,6 +8,7 @@
 
 .News-email{
     margin: auto;
+    width: 100%;
     text-align: center;
     font-size: 28px;
     color: #fff;
@@ -16,7 +17,7 @@
 
 .News-forms{
     padding-top: 40px;
-    width: 950px;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 80px;
