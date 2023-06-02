@@ -18,6 +18,10 @@
     padding-top: 150px;
 }
 
+.Info h1{
+    align-items: center;
+}
+
 .Yellow{
     color: #DEF00E;
     font-size: 50px;

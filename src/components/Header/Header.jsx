@@ -1,3 +1,4 @@
+import logo from "../../assets/images/logo.png"
 import "../Header/Header.css"
 
 function Header(){
@@ -5,6 +6,7 @@ function Header(){
         <>
         <header id="header-principal">
             <nav className="nav-header">
+                <img id="Logo" src={logo} alt="" />
                 <ul className="nav-list">
                     <li><a href="">Início</a></li>
                     <li><a href="">Metodologia</a></li>

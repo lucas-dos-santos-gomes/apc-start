@@ -3,10 +3,19 @@
     z-index: 10;
     width: 100%;
     box-sizing: border-box;
-    padding: 20px 40px;
+    padding: 20px;
     font-family: Nunito;
     font-size: 22px;
     transition: .5s;
+  }
+
+  .nav-header{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-header img{
+    width: 10%;
   }
   
   #header-principal.active {
@@ -16,12 +25,14 @@
   
   #header-principal ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
   
   #header-principal ul li {
     padding: 10px 20px;
     border-radius: 50px;
+    height: 25px;
   }
   
   #header-principal ul li:last-child {
