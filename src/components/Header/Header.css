@@ -1,5 +1,6 @@
 #header-principal {
-    position: absolute;
+    position: fixed;
+    background-color: #300B51;
     z-index: 10;
     width: 100%;
     box-sizing: border-box;

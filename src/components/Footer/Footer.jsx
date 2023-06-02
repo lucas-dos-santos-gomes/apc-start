@@ -33,10 +33,10 @@ function Footer(){
             </div>
 
             <div className="Redes">
-                <img src={facebook} alt="" />
-                <img src={github} alt="" />
-                <img src={instagram} alt="" />
-                <img src={linkedin} alt="" />
+                <a href="#"><img src={facebook} alt="" /></a>
+                <a href="#"><img src={github} alt="" /></a>
+                <a href="#"><img src={instagram} alt="" /></a>
+                <a href="#"><img src={linkedin} alt="" /></a>
                 
             </div>
         </footer>

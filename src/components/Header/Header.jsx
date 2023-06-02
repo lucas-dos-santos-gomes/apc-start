@@ -13,7 +13,9 @@ function Header(){
                     <li><a href="">Benefícios</a></li>
                     <li><a href="">Ajuda</a></li>
                     <li><a href="">Depoimentos</a></li> 
-                    <li><a href="">Plataforma</a></li> 
+                    <li><a href="">Plataforma</a></li>
+
+                    
                 </ul>
             </nav>
         </header>
