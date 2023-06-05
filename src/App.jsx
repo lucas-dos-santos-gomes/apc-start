@@ -1,4 +1,5 @@
 import Home from './pages/Home'
+import Material from './pages/Material/Material'
 import './App.css'
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <>
      <Home/>
      <areapsicologo/>
+     <Material/>
     </>
   )
 }

@@ -1,0 +1,47 @@
+#Material-principal{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #14015b;
+    background-image: url(/src/assets/img/material/estrelas-de-fundo.png);
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.mat-blue{
+    color: #05CCE6;
+}
+
+.mat-yellow{
+    color: #FBC02D;
+}
+
+.mat-red{
+    color: #E50914;
+}
+
+.Materi-titulo{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.Materi-titulo h1{
+    width: 300px;
+    font-family: inter;
+    font-size: 54px;
+    margin-left: 20%;
+}
+
+.livros-principal{
+    width: 500px;
+}
+
+.livros-principal img{
+    width: 100%;
+}
