@@ -1,4 +1,5 @@
 import "../Material-Components/Material-Principal.css"
+import LivrosEmpilhados from "../../assets/images/Material-img/livros-empilhados.png"
 
 function MaterialPrincipal(){
     return(
@@ -10,7 +11,7 @@ function MaterialPrincipal(){
                 </div>
         
                 <div className="livros-principal">
-                    <img src="/src/assets/img/material/livros-empilhados.png" alt=""/>
+                    <img src={LivrosEmpilhados} alt=""/>
                 </div>
             </div>
         </section>
