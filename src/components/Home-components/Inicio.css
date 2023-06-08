@@ -73,7 +73,7 @@
 }
 
 .buttons{
-    width: 460px;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
