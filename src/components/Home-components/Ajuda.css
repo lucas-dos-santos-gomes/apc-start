@@ -21,22 +21,62 @@
 }
 
 .ajuda-contato{
-    display: flex;
-    justify-content: space-evenly;
+    margin: auto;
     font-size: 32px;
+    width: 90%;
     color: #FAB84B;
     font-family: Nunito;
     padding-top: 40px;
 }
 
-.ajuda-contato li{
-    padding-top: 10px;
+.Forms-dados{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.ajuda-contato img{
-    align-items: center;
-    width: 5%;
-    height: 3%;
+.Forms-dados input{
+    height: 40px;
+    width: 45%;
+    font-size: 22px;
+    padding-left: 5px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 0.6px solid #FFF;
+    border-radius: 4px;
+}
+
+.Forms-mensagem{
+    margin-top: 20px;
+}
+
+.Forms-mensagem textarea{
+    height: 200px;
+    width: 75%;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: .1px solid #FFF;
+    border-radius: 4px;
+}
+
+.Entre-contato{
+    height: 35px;
+    width: 30%;
+    margin-top: 20px;
+    background-color: #FAB84B;
+    border: none;
+    border-radius: 5px;
+}
+
+.Entre-contato a{
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 
 .ajuda-central{
@@ -60,4 +100,9 @@
     border: solid 1px #fff;
     font-size: 26px;
     cursor: pointer;
+}
+
+.btn-central a{
+    text-decoration: none;
+    color: #FFF;
 }
