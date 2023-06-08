@@ -27,7 +27,7 @@
 
 
 #Txtemail{
-    width: 550px;
+    width: 50%;
     height: 60px;
     border-radius: 28px;
     border: solid 1px #d0d0d0;
@@ -43,7 +43,7 @@
     border: none;
     border-radius: 28px;
     height: 60px;
-    width: 200px;
+    width: 14%;
     font-size: 26px;
     font-family: Nunito;
     cursor: pointer;

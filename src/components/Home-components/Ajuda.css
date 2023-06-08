@@ -16,7 +16,7 @@
     margin: auto;
     font-size: 28px;
     color: #fff;
-    width: 500px;
+    width: 50%;
     padding-top: 40px;
 }
 
@@ -91,7 +91,7 @@
 .btn-central{
     margin-top: 60px;
     margin-bottom: 60px;
-    width: 400px;
+    width: 40%;
     height: 70px;
     font-family: Nunito;
     color: #fff;

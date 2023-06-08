@@ -11,7 +11,7 @@ function Newsletter(){
             <div className="News-email">
                 <p>Fique por dentro de todas as novidades.</p>
                 <div className="News-forms">
-                    <input type="text" placeholder="Seu e-mail" id="Txtemail"/>
+                    <input type="Email" placeholder="Seu e-mail" id="Txtemail"/>
                     <button id="InsBtn">Assinar</button>
                 </div>
             </div>
