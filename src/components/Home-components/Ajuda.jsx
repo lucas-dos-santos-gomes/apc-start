@@ -34,7 +34,8 @@ function Ajuda(){
                 <div className="ajuda-central">
                     <p>Nosso atendimento é de segunda a sexta-feira, das 9h às 18h, mas nossa Central de Ajuda está sempre a sua disposição caso queira conhecer mais sobre a nossa plataforma!</p>
                     <button className="btn-central"><a href="#">Central de Ajuda</a></button>
-                    <p>Se você é o responsável ou professor e precisa de suporte, clique no botão acima.</p>
+                    <p>Se você é o responsável ou professor e precisa de suporte, clique no botão acima.</p> <br />
+                    <p style={{color:"#FAB84B"}}>• E-mail: suporte@apc.com.br</p>
                 </div>
             </div>
         </section>

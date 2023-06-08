@@ -14,18 +14,32 @@ function Beneficios(){
 
             <div className="bene-infos">
                 <div className="bene-compo">
-                    <h2>Jogos educativos</h2>
                     <img src={notebook} alt=""/>
+                    <div className="bene-expli">
+                        <h2>Jogos educativos</h2>
+                        <p>Contamos com a ajuda de jogos educativos para tornar o ensino mais ludico, divertido e eficaz para o aluno.</p>
+                    </div>
+                    
                 </div>
 
                 <div className="bene-compo">
-                    <h2>Auxilio de Psicopedagogas e Psicólogos</h2>
+                    <div className="bene-expli">
+                        <h2>Auxilio de Psicopedagogas e Psicólogos</h2>
+                        <p>Suporte e auxilio de pedagogos e psicopedagogos do inicio ao fim dessa jornada.</p>
+                    </div>
                     <img src={pessoasfalando} alt=""/>
                 </div>
 
                 <div className="bene-compo">
-                    <h2>Comunidade Interativa entre os Alunos</h2>
                     <img src={meninoeletras} alt=""/>
+                    <div className="bene-expli">
+                        <div>
+                            <h2>Comunidade Interativa entre os Alunos</h2>
+                            <p>Comunidade onde podem interagir com outros alunos e tirarem suas duvidas.</p>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
             </div>
         </section>

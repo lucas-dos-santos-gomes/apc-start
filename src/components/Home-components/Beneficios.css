@@ -11,16 +11,33 @@
 }
 
 .bene-infos h2{
+    text-align: center;
     font-family: Nunito;
     color: #fff;
-    font-size: 36px;
+    font-size: 40px;
     padding-bottom: 60px;
 }
 
 .bene-compo{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 100px;
 }
 
+.bene-expli{
+
+    align-items: center;
+}
+
+.bene-expli p{
+    margin: auto;
+    width: 67%;
+    font-size: 32px;
+    font-family: Nunito;
+    color: #fff;
+}
+
 .bene-compo img{
-    width: 80%;
+    width: 50%;
 }
