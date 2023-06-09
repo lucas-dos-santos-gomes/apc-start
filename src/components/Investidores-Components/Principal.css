@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+
+
+#Principalsec{
+    height: 649px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #42337C;
+    background-image: url(../../assets/images/Investidores-img/Parceiro.png);
+}
+
+.PrincipalText{
+    padding-top: 50px; 
+}
+
+.PrincipalText h1{
+    width: 30%;
+    line-height: 80px;
+    font-family: 'Source Sans 3';
+    color: #fff;
+    font-size: 62px;
+}
