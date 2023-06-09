@@ -37,6 +37,8 @@
   }
   
   #header-principal ul li:last-child {
+    font-size: 26px;
+    padding: 15px;
     background-color: rgb(68, 48, 180);
     transition: .3s;
   }

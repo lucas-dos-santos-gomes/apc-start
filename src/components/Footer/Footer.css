@@ -34,3 +34,8 @@ footer a{
     display: flex;
     justify-content: space-evenly;
 }
+
+.Redes img:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
