@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 
 #Principalsec{
@@ -10,7 +11,8 @@
 }
 
 .PrincipalText{
-    padding-top: 50px; 
+    padding-top: 50px;
+    margin-left: 50px; 
 }
 
 .PrincipalText h1{
@@ -20,3 +22,28 @@
     color: #fff;
     font-size: 62px;
 }
+
+.Gold{
+    color: #FAB84B;
+}
+
+.btn-saibamais{
+    display: block;
+    width: 16%;
+    padding: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    background-color: #2F0B51;
+    font-family: "Nunito";
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 50px;
+    margin-left: 10%;
+    transition: .3s;
+}
+
+.btn-saibamais:hover{
+    transform: scale(1.1);
+}
+
