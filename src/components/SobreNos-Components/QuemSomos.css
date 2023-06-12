@@ -1,0 +1,34 @@
+#QuemSomos{
+    background-image: linear-gradient(to bottom, #16015A, #190259);
+    text-align: center;
+}
+
+.TituloQuemSomos{
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+hr{
+    margin: auto;
+    height: 7px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #1C3380, #9E00AC);
+    margin-top: 7px;
+}
+
+.TituloQuemSomos h1{
+    margin: 0;
+    letter-spacing: 30px;
+}
+
+.Lupa{
+    display: flex;
+    justify-content: left;
+}
+
+.Carasentado{
+    display: flex;
+    justify-content: right;
+}
