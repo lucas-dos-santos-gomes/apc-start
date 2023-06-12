@@ -1,0 +1,20 @@
+#Missaosec{
+    background-image: linear-gradient(to bottom, #1A0258, #1A0258);
+    text-align: center;
+}
+
+.MissaoTitulo{
+    font-size: 35px;
+}
+
+.MissaoTitulo h1{
+    margin: 0;
+}
+
+.MiViVa{
+    display: flex;
+}
+
+.textos{
+    display: flex;
+}
