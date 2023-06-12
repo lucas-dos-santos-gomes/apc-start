@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 #Missaosec{
     background-image: linear-gradient(to bottom, #1A0258, #1A0258);
     text-align: center;
@@ -12,9 +14,34 @@
 }
 
 .MiViVa{
+    width: 100%;
+    margin-top: 80px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .textos{
+    width: 90%;
     display: flex;
+    text-align: left;
+    color: #fff;
+    font-family: Nunito;
+    margin: auto;
+}
+
+.Imgtextos img{
+    width: 250%;
+    
+}
+
+.texto h2{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.texto p{
+    font-size: 20px;
+    width: 80%;
 }
