@@ -10,11 +10,15 @@ function QuemSomos(){
 
                 <div className="TituloQuemSomos">
                     <h1>QUEM SOMOS</h1>
-                    <hr />
+                    <hr/>
                 </div>
 
                 <div className="Lupa">
                     <img src={Lupa} alt="" />
+                </div>
+
+                <div className="TextoQuemSomos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam commodi minus molestias ullam corrupti perspiciatis. Eum omnis repellendus officia impedit quisquam. Reiciendis modi saepe aut alias nemo omnis ad asperiores!</p>
                 </div>
 
                 <div className="Carasentado">

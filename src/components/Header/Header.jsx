@@ -11,7 +11,7 @@ function Header(){
                 <img id="Logo" src={logo} alt="" />
                 <ul className="nav-list">
                     <li><Link to="/">Início</Link></li>
-                    <li><Link to="/investidores">Metodologia</Link></li>
+                    <li><Link to="/SobreNos">Metodologia</Link></li>
                     <li><a href="">Benefícios</a></li>
                     <li><a href="">Ajuda</a></li>
                     <li><a href="">Depoimentos</a></li> 
