@@ -47,6 +47,10 @@
     border-radius: 4px;
 }
 
+.Forms-dados input:focus, .Forms-mensagem textarea:focus{
+    outline: none;
+}
+
 .Forms-mensagem{
     margin-top: 20px;
 }
@@ -61,6 +65,7 @@
     background-color: rgba(255, 255, 255, 0.07);
     border: .1px solid #FFF;
     border-radius: 4px;
+    resize: none;
 }
 
 .Entre-contato{
