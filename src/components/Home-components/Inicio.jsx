@@ -9,7 +9,7 @@ function Inicio(){
                 <h1><span className="Yellow">A</span><span className="Blue">P</span><span className="Pink">C</span> é uma plataforma Web desenvolvida para criar mais <span className="Gold">oportunidades</span></h1>
 
                 <div className="buttons">
-                    <a href="#"className="btn-sobre">Sobre Nós</a>
+                    <a href="/SobreNos"className="btn-sobre">Sobre Nós</a>
                     <a href="#" className="btn-acesso">Acessar a plataforma</a>
                 </div>
             </div>
