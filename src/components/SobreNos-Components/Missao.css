@@ -21,27 +21,39 @@
 }
 
 .textos{
-    width: 90%;
-    display: flex;
     text-align: left;
     color: #fff;
     font-family: Nunito;
-    margin: auto;
+    width: 25%;
 }
 
-.Imgtextos img{
-    width: 250%;
-    
+.Imgtextos{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
 }
 
-.texto h2{
-    width: 70%;
-    margin: auto;
-    padding-bottom: 40px;
-    padding-top: 20px;
+.Imgtextos img {
+    height: 80px;
+}
+
+.yellow{
+    color: #FFD835;
+}
+
+.Red{
+    color: #FF0000;
+}
+
+.Cian{
+    color: #26BFA6;
+}
+
+.texto{
+    padding-top: 40px;
 }
 
 .texto p{
     font-size: 20px;
-    width: 80%;
 }

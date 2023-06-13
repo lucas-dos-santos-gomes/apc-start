@@ -14,41 +14,42 @@ function Missao(){
 
                 <div className="MiViVa">
 
-                    <div className="infoQuem">
+                    
                     <div className="textos">
                         <div className="Imgtextos">
-                          <img src={espada} alt="" />  
+                          <img src={espada} alt="" />
+                          <h2><span className="yellow">Missão da História</span></h2>
                         </div>
                         <div className="texto">
-                            <h2><span className="">Missão da História</span></h2>
                           <p>Nossa missão é proporcionar uma aventura épica de aprendizado, onde crianças com paralisia cerebral podem desvendar seu potencial. conquistar novos conhecimentos e se tornarem verdadeiros heróis de suas próprias histórias.</p>  
                         </div>
                     </div>
-                    </div>
                     
-                    <div className="infoQuem">
+                    
+                    
                     <div className="textos">
                         <div className="Imgtextos">
                             <img src={bandeira} alt="" />  
+                            <h2><span className="Red">Próximas Fases</span></h2>
                         </div>
                         <div className="texto">
-                            <h2>Próximas Fases</h2>
-                            <p>Nossa visão é construir um império de aprendizado onde cada criança com paralisia cerebral possa se tornar um verdadeiro herói educacional</p>  
+                            <p>Nossa visão é construir um império de aprendizado onde cada criança com paralisia cerebral possa se tornar um verdadeiro herói educacional.</p>  
                         </div>
                     </div>
-                    </div>
+                    
                    
-                    <div className="infoQuem">
+                    
                     <div className="textos">
                         <div className="Imgtextos">
                           <img src={coracao} alt="" />  
+                          <h2><span className="Cian">Pontos de virtude</span></h2>
                         </div>
                         <div className="texto">
-                        <h2>Pontos de virtude</h2>
+                        
                         <p>Atuar de forma ética, profissional e Nossos valores são nossos verdadeiros power-ups. Inclusão, inovação, acessibilidade e comprometimento com a educação são os pilares que impulsionam nossa empresa.</p>  
                         </div>
                     </div>
-                    </div>
+                    
                 </div>
             </section>
         </>
