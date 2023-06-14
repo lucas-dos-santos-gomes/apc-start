@@ -35,6 +35,7 @@
 }
 
 .TextoQuemSomos{
+    display: block;
     margin: auto;
     width: 70%;
     color: #fff;
