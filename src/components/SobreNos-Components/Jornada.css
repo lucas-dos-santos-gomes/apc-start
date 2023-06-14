@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+#JornadaSec{
+    background-image: linear-gradient(to bottom, #220454, #270652);
+}
+
+.Jornadatitulo{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.Jornadatitulo img{
+    width: 80%;
+}
+
+.JornadaTexto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.JornadaTexto img{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.JornadaTexto img:last-child{
+    width: 17%;
+    height: 23%;
+}
+
+.JornadaTexto p{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 28px;
+}

@@ -11,7 +11,6 @@ function Sobre(){
         <>
             <section id="SobreSec">
                 <div className="SobreTitulo">
-                    
                     <img src={SobreNostitulo} alt="" />
                 </div>
 

@@ -3,13 +3,14 @@ import "../SobreNos-Components/Missao.css"
 import espada from "../../assets/images/SobreNos-img/espada.png"
 import bandeira from "../../assets/images/SobreNos-img/bandeira.png"
 import coracao from "../../assets/images/SobreNos-img/coracao.png"
+import MissaoVisaoValores from "../../assets/images/SobreNos-img/MissaoVisaoValores.png"
 
 function Missao(){
     return(
         <>
             <section id="Missaosec">
                 <div className="MissaoTitulo">
-                    <h1>Missão, Visão e valores</h1>
+                    <img src={MissaoVisaoValores} alt="" />
                 </div>
 
                 <div className="MiViVa">

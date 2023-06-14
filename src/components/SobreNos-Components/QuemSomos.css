@@ -8,18 +8,17 @@
 
 .TituloQuemSomos{
     padding-top: 70px;
-    font-size: 28px;
 }
 
-.TituloQuemSomos h1{
-    margin: 0;
-    letter-spacing: 30px;
+.TituloQuemSomos img{
+    width: 80%;
 }
+
 
 .TituloQuemSomos hr{
     margin: auto;
     height: 7px;
-    width: 50%;
+    width: 70%;
     border-radius: 20px;
     border: none;
     background-image: linear-gradient(to right, #1C3380, #9E00AC);
@@ -29,6 +28,10 @@
 .Lupa{
     display: flex;
     justify-content: left;
+}
+
+.Lupa img{
+    width: 20%;
 }
 
 .TextoQuemSomos{
@@ -42,4 +45,8 @@
 .Carasentado{
     display: flex;
     justify-content: right;
+}
+
+.Carasentado img{
+    width: 30%;
 }

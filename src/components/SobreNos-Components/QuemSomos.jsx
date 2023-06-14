@@ -2,6 +2,7 @@ import "../SobreNos-Components/QuemSomos.css"
 
 import Lupa from "../../assets/images/SobreNos-img/LupaRoxa.png"
 import CaraSentado from "../../assets/images/SobreNos-img/CaraSentado.png"
+import QuemSomosTitulo from "../../assets/images/SobreNos-img/QuemSomos.png"
 
 function QuemSomos(){
     return(
@@ -9,7 +10,7 @@ function QuemSomos(){
             <section id="QuemSomos">
 
                 <div className="TituloQuemSomos">
-                    <h1>QUEM SOMOS</h1>
+                    <img src={QuemSomosTitulo} alt="" />
                     <hr/>
                 </div>
 
