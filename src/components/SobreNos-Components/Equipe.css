@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 #EquipeSec{
-    background-image: url();
+    height: auto;
+    background-color: #15015C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/images/SobreNos-img/puzzle-fundo.png);
+    padding-bottom: 120px;
+}
+
+.EquipeTitulo{
+    text-align: center;
+}
+
+.EquipeTitulo img{
+    width: 80%;
+}
+
+.EquipeTitulo hr{
+    margin: auto;
+    height: 7px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffd7359d;
+    margin-top: 7px;
+}
+
+.EquipeImgs{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Equipeimg img{
+    width: 70%;
+}
+
+.Equipeimg p{
+    font-family: 'Nunito';
+    font-size: 20px;
+    color: #FFD835;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.FuncaoColor{
+    padding-top: 0;
+    color: #00B8F2;
+    font-size: 16px;
 }
