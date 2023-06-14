@@ -3,6 +3,7 @@ import "../SobreNos-Components/Sobre.css"
 import ControleVideo from "../../assets/images/SobreNos-img/controle-video.png"
 
 import PessoaSegurandoPeca from "../../assets/images/SobreNos-img/pessoa-segurando-peca.png"
+import SobreNostitulo from "../../assets/images/SobreNos-img/SobreNos.png"
 
 
 function Sobre(){
@@ -10,10 +11,11 @@ function Sobre(){
         <>
             <section id="SobreSec">
                 <div className="SobreTitulo">
-                    <h1>Sobre nós</h1>
+                    
+                    <img src={SobreNostitulo} alt="" />
                 </div>
 
-                <div className="Contrile-img">
+                <div className="Controle-img">
                     <img src={ControleVideo} alt="" />
                 </div>
 
