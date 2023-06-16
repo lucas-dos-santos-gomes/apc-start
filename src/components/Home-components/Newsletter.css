@@ -35,6 +35,7 @@
     font-family: Nunito;
     font-size: 20px;
     padding-left: 15px;
+    
 }
 
 #InsBtn{
@@ -50,5 +51,23 @@
 }
 
 @media (max-width:425px){
-    
+    .titulo{
+        font-size: 24px;
+    }
+
+    .News-forms{
+        width: 100%;
+    }
+
+    #Txtemail{
+        margin: auto;
+        width: 60%;
+    }
+
+    #InsBtn{
+        width: 20%;
+        margin: auto;
+        height: 40px;
+        font-size: 18px;
+    }
 }
