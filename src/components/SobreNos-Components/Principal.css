@@ -6,3 +6,12 @@
     background-size: auto;
     background-image: url(../../assets/images/SobreNos-img/header.page-hero.png);
 }
+
+@media (max-width:425px){
+
+    #Principalsec{
+        height: 330px;
+        background-position: center;
+        background-size: 290%;
+    }
+}
