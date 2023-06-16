@@ -6,11 +6,12 @@ import Jornada from "../../components/SobreNos-Components/Jornada"
 import Equipe from "../../components/SobreNos-Components/Equipe"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
+import MenuHamburguer from "../../components/MenuHamburguer/Menu"
 
 function SobreNos(){
     return(
         <>
-            <Header/>
+            <MenuHamburguer/>
             <Principal/>
             <QuemSomos/>
             <Missao/>
