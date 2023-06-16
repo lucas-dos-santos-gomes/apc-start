@@ -53,3 +53,26 @@
     color: #00B8F2;
     font-size: 16px;
 }
+
+@media (max-width:425px){
+
+    .EquipeTitulo{
+        padding-top: 30px;
+    }
+
+    .EquipeTitulo img{
+        width: 95%;
+    }
+
+    .EquipeTitulo hr{
+        width: 95%;
+    }
+
+    .EquipeImgs{
+        flex-direction: column;
+    }
+
+    .Equipeimg{
+        padding-bottom: 30px;
+    }
+}
