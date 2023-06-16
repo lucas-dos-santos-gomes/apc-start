@@ -92,3 +92,13 @@
     width: 100%;
     
 }
+
+@media (max-width:425px){
+    .Prin-image img{
+        display: none;
+    }
+
+    .Info{
+        text-align: center;
+    }
+}
