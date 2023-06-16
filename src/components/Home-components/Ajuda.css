@@ -113,5 +113,47 @@
 }
 
 @media (max-width:425px){
-    
+    .titulo{
+        font-size: 22px;
+    }
+
+    .ajuda-info h2{
+        font-size: 34px;
+    }
+
+    .ajuda-info p{
+        width: 90%;
+    }
+
+    .Forms-dados{
+        flex-direction: column;
+    }
+
+    .Forms-dados input{
+        margin: auto;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .Forms-mensagem textarea{
+        margin: auto;
+        width: 100%;
+    }
+
+    .Entre-contato{
+        width: 70%;
+    }
+
+    .ajuda-central{
+        width: 90%;
+    }
+
+    .btn-central{
+        width: 75%;
+    }
+
+    .ajuda-central p:last-child{
+        text-align: center;
+        width: 102%;
+    }
 }
