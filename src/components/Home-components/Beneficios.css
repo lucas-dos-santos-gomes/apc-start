@@ -43,5 +43,25 @@
 }
 
 @media (max-width:425px){
-   
+    .titulo{
+        font-size: 20px;
+    }
+
+   .bene-compo img{
+        display: none;
+   }
+
+   .bene-compo h2{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+   }
+
+   .bene-compo p{
+        width: 90%;
+   }
+
+   #Beneficiossec{
+        padding-bottom: 80px;
+   }
 }
