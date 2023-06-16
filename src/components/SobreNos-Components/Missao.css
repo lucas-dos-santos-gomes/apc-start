@@ -64,7 +64,8 @@
 
     .MiViVa{
         flex-direction: column;
-        jus
+        justify-content: space-evenly;
+        height: 1000px;
     }
 
     .textos{
