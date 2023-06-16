@@ -51,3 +51,7 @@
 .Carasentado img{
     width: 30%;
 }
+
+@media (max-width:425px){
+    
+}
