@@ -10,8 +10,22 @@
 @media (max-width:425px){
 
     #Principalsec{
-        height: 330px;
+        height: 59vh;
         background-position: center;
         background-size: 290%;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    #Principalsec{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    #Principalsec{
+        height: 39vh;
     }
 }
