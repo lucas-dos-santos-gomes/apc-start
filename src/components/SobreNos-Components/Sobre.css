@@ -35,5 +35,24 @@
 
 @media (max-width:425px){
 
-    
+    .Controle-img{
+        display: none;
+    }
+
+    .SobreTitulo img{
+        width: 96%;
+    }
+
+    .TextoSobre{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    .TextoSobre p{
+        font-size: 28px;
+    }
+
+    .Peca-img{
+        display: none;
+    }
 }
