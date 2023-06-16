@@ -94,6 +94,11 @@
 }
 
 @media (max-width:425px){
+
+    #Iniciosec{
+        padding-top: 20px;
+    }
+
     .Prin-image{
         display: none;
     }
