@@ -40,5 +40,22 @@
 
 @media (max-width:425px){
 
-    
+    .Jornadatitulo img{
+        width: 97%;
+    }
+
+    .JornadaTexto img{
+        display: none;
+    }
+
+    .JornadaTexto{
+        text-align: center;
+        margin: auto;
+        width: 95%;
+        padding-top: 40px;
+    }
+
+    .JornadaTexto p{
+        font-size: 28px;
+    }
 }
