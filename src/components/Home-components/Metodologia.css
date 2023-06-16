@@ -65,3 +65,44 @@
 .img-meto img{
     width: 70%;
 }
+
+@media (max-width:425px){
+    .titulo{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .img-meto{
+        display: none;
+    }
+
+    .dados{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .papo{
+        padding-top: 70px;
+        padding-bottom: 40px;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .dados img{
+      padding-bottom: 20px;
+    }
+
+    .papo img{
+        padding-bottom: 20px;
+    }
+
+    .dados h2{
+        padding-bottom: 25px;
+    }
+
+    .papo h2{
+        padding-bottom: 25px;
+    }
+}

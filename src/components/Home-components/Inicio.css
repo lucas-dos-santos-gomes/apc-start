@@ -94,11 +94,15 @@
 }
 
 @media (max-width:425px){
-    .Prin-image img{
+    .Prin-image{
         display: none;
     }
 
     .Info{
         text-align: center;
+    }
+
+    .buttons{
+        width: 100%;
     }
 }
