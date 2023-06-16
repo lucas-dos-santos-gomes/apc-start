@@ -8,7 +8,6 @@ function QuemSomos(){
     return(
         <>
             <section id="QuemSomos">
-
                 <div className="TituloQuemSomos">
                     <img src={QuemSomosTitulo} alt="" />
                     <hr/>

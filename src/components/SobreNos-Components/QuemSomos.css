@@ -53,5 +53,33 @@
 }
 
 @media (max-width:425px){
-    
+
+    #QuemSomos{
+        padding-bottom: 60px;
+    }
+
+    .TituloQuemSomos img{
+        width: 95%;
+    }
+
+    .TituloQuemSomos hr{
+        width: 95%;
+    }
+
+    .Lupa{
+        display: none;
+    }
+
+    .TextoQuemSomos{
+        padding-top: 50px;
+        width: 90%;
+    }
+
+    .TextoQuemSomos p{
+        font-size: 26px;
+    }
+
+    .Carasentado{
+        display: none;
+    }
 }
