@@ -1,5 +1,3 @@
-import email from "../../assets/images/home-img/email-icone.png"
-import whats from "../../assets/images/home-img/whats-icone.png"
 
 import "../Home-components/Ajuda.css"
 
