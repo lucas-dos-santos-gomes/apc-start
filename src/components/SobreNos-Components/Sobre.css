@@ -32,3 +32,8 @@
     display: flex;
     justify-content: right;
 }
+
+@media (max-width:425px){
+
+    
+}
