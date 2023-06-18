@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,700&display=swap');
+
+
+#Nivel1sec{
+    height: 500px;
+    background-color: #351D67;
+}
+
+.Guia1{
+    padding-top: 40px;
+}
+
+.Guia1Info{
+    margin: auto;
+    height: 250px;
+    width: 95%;
+    background-color: rgba(217, 217, 217, .45);
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Guia1Textos h2{
+    font-family: 'Nunito';
+    font-size: 44px;
+    color: #03B8F0;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 10px;
+}
+
+.Guia1Textos p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    color: #fff; 
+    padding-top: 40px;
+    padding-left: 10px;
+    letter-spacing: 4gitpx;
+}
+
+.Guia1Textos{
+    width: 30%;
+}
+
+.Roxo{
+    color: #AD54FC;
+}
+
+.Amarelo{
+    color: #F2FC4F;
+}
+
+.Verde{
+    color: #5AFC66;
+}
+
+.Vermelho{
+    color: #F65150;
+}
+
+.Laranja{
+    color: #F6BA6C;
+}
+
+.Roxo{
+    color: #AD54FC;
+}
+
+.GuiaLink{
+    display: flex;
+    align-items: center;
+    background-color: rgba(217, 217, 217, .50);
+    width: 10%;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+
+}
+
+.GuiaLink img{
+    width: 25%;
+}
+
+.GuiaLink a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 800;
+}

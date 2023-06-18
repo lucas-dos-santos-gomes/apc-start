@@ -11,6 +11,7 @@ import MenuHamburguer from "../../components/MenuHamburguer/Menu"
 function SobreNos(){
     return(
         <>
+            <Header/>
             <MenuHamburguer/>
             <Principal/>
             <QuemSomos/>

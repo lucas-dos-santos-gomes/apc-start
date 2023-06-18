@@ -70,3 +70,10 @@
   #header-principal ul li a:hover::after {
     width: 100%;
   }
+
+  @media (max-width:768px){
+
+    #header-principal{
+      display: none;
+    }
+}
