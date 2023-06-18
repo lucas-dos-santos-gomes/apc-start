@@ -6,6 +6,10 @@
     align-items: flex-end;
     position: relative;
     z-index: 1;
+    background-color: #300B51;
+    height: 30px;
+    margin: auto;
+    justify-content: center;
   }
   
   .hamburger {
@@ -20,7 +24,7 @@
   .line {
     width: 100%;
     height: 3px;
-    background-color: #000;
+    background-color: #fff;
     transition: all 0.3s ease;
   }
   
@@ -66,4 +70,13 @@
     opacity: 1;
     pointer-events: auto;
   }
+
+  
+
+@media (max-width:768px){
+
+  .menu{
+    display: flex;
+  }
+}
   
