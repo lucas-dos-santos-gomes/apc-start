@@ -12,7 +12,7 @@ function Agendamento (){
             </div>
 
             <div className="botao">
-                <button>Agendamentos</button>
+                <button className="botao-do-agendamento">AGENDAMENTO</button>
             </div>
 
             <div className="Calendario">

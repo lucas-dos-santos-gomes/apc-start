@@ -1,5 +1,32 @@
 #Agendamento{
     width: 100%;
+    height: 450px;
     background-color: #12005C;
     display: flex;
+}
+.Avatar{
+    width: 33%;
+}
+
+.botao{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.botao-do-agendamento{
+    width: 65%;
+    background-color:#05CCE6;
+    border-radius: 30px;
+    border: none;
+    padding: 28px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+.Calendario{
+    width: 33%;
+}
+.Calendario img{
+    width: 100%;
+    margin-top: 50px;
 }
