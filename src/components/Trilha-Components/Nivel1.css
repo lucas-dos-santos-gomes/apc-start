@@ -2,7 +2,7 @@
 
 
 #Nivel1sec{
-    height: 500px;
+    height: auto;
     background-color: #351D67;
 }
 
@@ -93,4 +93,43 @@
     font-family: 'Nunito';
     font-size: 22px;
     font-weight: 800;
+}
+
+.trilha1img{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.trilha1img img{
+    width: 35%;
+}
+
+.bolastrilha1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.bolastrilha1 img{
+    width: 100px;
+    padding-bottom: 60px;
+}
+
+#bolaroxa1{
+    margin-left: -110px;
+}
+
+#bolaamarela1{
+    margin-right: -20px;
+}
+
+#bolaverde1{
+    margin-left: -10px;
+}
+
+#bolavermelha1{
+    margin-left: -120px;
 }
