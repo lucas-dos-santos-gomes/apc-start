@@ -1,5 +1,5 @@
 import "./agendamento.css"
-import Avatar from "../../assets/images/Areapsicologo-img/Avatar.png"
+import Avatar from "../../assets/images/Areapsicopedagogica-img/Avatar.png"
 import calendarios from "../../assets/images/Areapsicopedagogica-img/calendarios.png"
 
 function Agendamento (){
