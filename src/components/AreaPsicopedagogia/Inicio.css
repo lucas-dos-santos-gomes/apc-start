@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+#Section{
+    display: flex;
+    height: 500px;
+    background-image: url(../../assets/images/home-img/fundo-estrela.png);
+    background-position: center;
+    font-family: Nunito;
+    padding-bottom: 100px;
+    padding-top: 185px;
+}
+.Inicio{
+    width: 60%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.texto{
+    width: 60%;
+    margin-left: 120px;
+}
+.texto h1{
+    font-size: 60px;
+}
+.psicopedagogia{
+    color: #FAB84B;
+}
+.Botao{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 60px;
+    margin-left:80px ;
+    gap: 40px;
+}
+.saibamais{
+    width: 35%;
+    font-size: 30px;
+    background-color: #FB9C00;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    
+}
+.agendamentos{
+    width: 35%;
+    font-size: 30px;
+    background-color: #05CCE6;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    color: #fff;
+}
+.Professora-img{
+    width: 40%;
+}
+.Professora-img img{
+    width: 80%;
+}
+
+
