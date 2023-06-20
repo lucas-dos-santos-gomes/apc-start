@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,700&display=swap');
+
+
+#Nivel2sec{
+    height: auto;
+    background-color: #351D67;
+}
+
+.Guia2{
+    padding-top: 40px;
+}
+
+.Guia2Info{
+    margin: auto;
+    height: 250px;
+    width: 95%;
+    background-color: rgba(217, 217, 217, .45);
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Guia2Textos h2{
+    font-family: 'Nunito';
+    font-size: 44px;
+    color: #03B8F0;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 10px;
+}
+
+.Guia2Textos p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    color: #fff; 
+    padding-top: 40px;
+    padding-left: 10px;
+    letter-spacing: 4gitpx;
+}
+
+.Guia2Textos{
+    width: 30%;
+}
+
+.Roxo{
+    color: #AD54FC;
+}
+
+.Amarelo{
+    color: #F2FC4F;
+}
+
+.Verde{
+    color: #5AFC66;
+}
+
+.Vermelho{
+    color: #F65150;
+}
+
+.Laranja{
+    color: #F6BA6C;
+}
+
+.Roxo{
+    color: #AD54FC;
+}
+
+.GuiaLink2{
+    display: flex;
+    align-items: center;
+    background-color: rgba(217, 217, 217, .50);
+    width: 10%;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+
+}
+
+.GuiaLink2 img{
+    width: 25%;
+}
+
+.GuiaLink2 a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.trilha2img{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    justify-content: right;
+}
+
+.trilha2img img{
+    width: 35%;
+}
+
+.bolastrilha2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.bolastrilha2 img{
+    width: 100px;
+    padding-bottom: 60px;
+}
+
+#bolaroxa2{
+    margin-left: -5px;
+}
+
+#bolaamarela2{
+    margin-left: -120px;
+}
+
+#bolaverde2{
+    margin-right: -20px;
+}
+
+#bolavermelha2{
+    margin-left: -90px;
+}
+
+#bolaazul2{
+    margin-right: -60px;
+}
