@@ -27,7 +27,6 @@ function Nivel2(){
             </div>
 
             <div className="Trilha2">
-
                 <div className="trilha2img">
                     <img src={hamster} alt="" />
                 </div>
@@ -39,8 +38,6 @@ function Nivel2(){
                     <a href=""><img src={bolaverde} alt="" id="bolaverde2"/></a>
                     <a href=""><img src={bolavermelha} alt="" id="bolavermelha2"/></a>
                 </div>
-
-                
             </div>
         </section>
         </>
