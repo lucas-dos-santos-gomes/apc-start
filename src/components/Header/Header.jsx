@@ -16,8 +16,6 @@ function Header(){
                     <li><a href="#Ajudasec">Ajuda</a></li>
                     <li><a href="#">Depoimentos</a></li> 
                     <li><a href="/Trilha">Plataforma</a></li>
-
-                    
                 </ul>
             </nav>
         </header>
