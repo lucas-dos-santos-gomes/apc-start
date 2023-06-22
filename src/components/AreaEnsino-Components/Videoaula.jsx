@@ -24,8 +24,8 @@ function VideoAula(){
             </div>
 
             <div className="MenuVideoAula">
-                <a href=""><img src={laptopcolorido} alt="" /></a>
-                <a href="/trilha"><img src={ursolendosemcor} alt="" /></a>
+                <a href="/VideoAula"><img src={laptopcolorido} alt="" /></a>
+                <a href="/Trilha"><img src={ursolendosemcor} alt="" /></a>
                 <a><img src={dinossaurosemcor} alt="" /></a>
                 <a><img src={fliperamasemcor} alt="" /></a>
             </div>
