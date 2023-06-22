@@ -6,7 +6,7 @@ import Area from "./pages/AreaPsicopedagogia/Area"
 import Trilha from "./pages/TrilhaConhecimento/Trilha"
 import AreaDeEnsino from "./pages/VideoAula/VideoAula"
 import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
-import Atividade from "./components/AreaEnsino-Components/Atividade"
+import Atividade from "./pages/Atividade/Atividade"
 import './App.css'
 
 export default function App() {

@@ -25,7 +25,7 @@ function VideoAulaComponent(){
 
             <div className="MenuVideoAula">
                 <a href="/VideoAula"><img src={laptopcolorido} alt="" /></a>
-                <a href="/Trilha"><img src={ursolendosemcor} alt="" /></a>
+                <a href="/Atividade"><img src={ursolendosemcor} alt="" /></a>
                 <a><img src={dinossaurosemcor} alt="" /></a>
                 <a><img src={fliperamasemcor} alt="" /></a>
             </div>
