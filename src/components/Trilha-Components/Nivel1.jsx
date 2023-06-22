@@ -32,7 +32,7 @@ function Nivel1(){
                 </div>
 
                 <div className="bolastrilha1">
-                    <a href="/AreaDeEnsino"><img src={bolaazul} alt=""  id="bolaazul1"/></a>
+                    <a href="/VideoAula"><img src={bolaazul} alt=""  id="bolaazul1"/></a>
                     <a href=""><img src={bolaroxa} alt="" id="bolaroxa1"/></a>
                     <a href=""><img src={bolaamarela} alt="" id="bolaamarela1"/></a>
                     <a href=""><img src={bolaverde} alt="" id="bolaverde1"/></a>

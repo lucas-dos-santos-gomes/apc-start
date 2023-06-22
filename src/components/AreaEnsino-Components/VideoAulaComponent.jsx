@@ -1,4 +1,4 @@
-import './Videoaula.css';
+import './VideoAulaComponent.css';
 
 import logo from "../../assets/images/logo.png"
 import laptopcolorido from "../../assets/images/AreaEnsino-img/laptop-colorido.png"
@@ -15,7 +15,7 @@ import dinossaurocolorido from "../../assets/images/AreaEnsino-img/dinossauro-co
 import fliperamacolorido from "../../assets/images/AreaEnsino-img/fliperama-colorido.png"
 
 
-function VideoAula(){
+function VideoAulaComponent(){
     return(
         <>
         <section id="VideoAulaSec">
@@ -79,4 +79,4 @@ function VideoAula(){
     )
 }
 
-export default VideoAula
+export default VideoAulaComponent
