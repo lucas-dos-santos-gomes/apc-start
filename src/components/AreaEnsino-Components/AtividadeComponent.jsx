@@ -8,6 +8,7 @@ import fliperamasemcor from "../../assets/images/AreaEnsino-img/fliperama-sem-co
 import ursolendocolorido from "../../assets/images/AreaEnsino-img/ursolendo-colorido.png"
 import dinossaurocolorido from "../../assets/images/AreaEnsino-img/dinossauro-colorido.png"
 import fliperamacolorido from "../../assets/images/AreaEnsino-img/fliperama-colorido.png"
+import borracha from "../../assets/images/AreaEnsino-img/borracha.png"
 
 
 function AtividadeComponent(){
@@ -24,8 +25,28 @@ function AtividadeComponent(){
                 <a><img src={dinossaurosemcor} alt="" /></a>
                 <a><img src={fliperamasemcor} alt="" /></a>
             </div>
-
             
+            <div className="Atividades">
+                <div className="atividade">
+                    <a href="" className="Amarelo">Atividade 1</a>
+                    <a href="" className="Jade">Atividade 2</a>
+                </div>
+            </div>
+
+            <div className="Atividades">
+                <div className="atividade">
+                    <a href="" className="Barro">Atividade 3</a>
+                    <a href="" className="RosaClaro">Atividade 4</a>
+                </div>
+            </div>
+
+            <div className="Atividades">
+                <div className="atividade">
+                    <a href="" className="RoxoAti">Atividade 5</a>
+                    <a href="" className="AzulEscuro">Atividade 6</a>
+                </div>
+            </div>
+                
             <div className="imagens-decoracao">
                 <img src={laptopcolorido} alt="" />
                 <img src={ursolendocolorido} alt="" />

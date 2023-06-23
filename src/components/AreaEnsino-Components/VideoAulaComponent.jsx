@@ -37,10 +37,12 @@ function VideoAulaComponent(){
                   <video src={aula} controls></video>
                   <p className="Marinho">Aula 1 - Aprendendo</p>  
                 </div>
+
                 <div className="Aula">
                   <video src={aula} controls></video>
                   <p className="Limao">Aula 2 -</p>  
                 </div>
+
                 <div className="Aula">
                   <video src={aula} controls></video>
                   <p className="laranja">Aula 3 -</p> 
@@ -56,10 +58,12 @@ function VideoAulaComponent(){
                   <video src={aula} controls></video>
                   <p className="Rosa">Aula 4 -</p>  
                 </div>
+
                 <div className="Aula">
                   <video src={aula} controls></video>
                   <p className="Limao">Aula 5 -</p>  
                 </div>
+                
                 <div className="Aula">
                   <video src={aula} controls></video>
                   <p className="roxo">Aula 6 -</p>  
