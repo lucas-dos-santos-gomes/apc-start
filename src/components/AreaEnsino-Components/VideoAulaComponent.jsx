@@ -26,8 +26,8 @@ function VideoAulaComponent(){
             <div className="MenuVideoAula">
                 <a href="/VideoAula"><img src={laptopcolorido} alt="" /></a>
                 <a href="/Atividade"><img src={ursolendosemcor} alt="" /></a>
-                <a><img src={dinossaurosemcor} alt="" /></a>
-                <a><img src={fliperamasemcor} alt="" /></a>
+                <a href="/Musica"><img src={dinossaurosemcor} alt="" /></a>
+                <a href="/Jogos"><img src={fliperamasemcor} alt="" /></a>
             </div>
 
             <div className="Aulas">
@@ -63,7 +63,7 @@ function VideoAulaComponent(){
                   <video src={aula} controls></video>
                   <p className="Limao">Aula 5 -</p>  
                 </div>
-                
+
                 <div className="Aula">
                   <video src={aula} controls></video>
                   <p className="roxo">Aula 6 -</p>  

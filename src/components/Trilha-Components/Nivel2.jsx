@@ -15,7 +15,7 @@ function Nivel2(){
             <div className="Guia2">
                 <div className="Guia2Info">
                     <div className="Guia2Textos">
-                        <h2>N<span className="Roxo">I</span><span className="Amarelo">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">2</span></h2>
+                        <h2>N<span className="Roxo">I</span><span className="Amarelot">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">2</span></h2>
                         <p>APRENDENDO A COMBINAR LETRAS</p>
                     </div>
                     

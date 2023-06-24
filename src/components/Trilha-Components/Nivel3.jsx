@@ -16,7 +16,7 @@ function Nivel3(){
             <div className="Guia3">
                 <div className="Guia3Info">
                     <div className="Guia3Textos">
-                        <h2>N<span className="Roxo">I</span><span className="Amarelo">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">3</span></h2>
+                        <h2>N<span className="Roxo">I</span><span className="Amarelot">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">3</span></h2>
                         <p>APRENDENDO OS NÚMEROS</p>
                     </div>
                     

@@ -15,7 +15,7 @@ function Nivel1(){
             <div className="Guia1">
                 <div className="Guia1Info">
                     <div className="Guia1Textos">
-                        <h2>N<span className="Roxo">I</span><span className="Amarelo">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">1</span></h2>
+                        <h2>N<span className="Roxo">I</span><span className="Amarelot">V</span><span className="Verde">E</span><span className="Vermelho">L</span> <span className="Laranja">1</span></h2>
                         <p>APRENDENDO O ALFABETO</p>
                     </div>
                     
