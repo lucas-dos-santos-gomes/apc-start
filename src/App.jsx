@@ -8,6 +8,7 @@ import AreaDeEnsino from "./pages/VideoAula/VideoAula"
 import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
 import Atividade from "./pages/Atividade/Atividade"
 import Musica from "./pages/Musicas/Musica"
+import Jogos from "./pages/Jogos/Jogos"
 import './App.css'
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/VideoAula" element={ <VideoAula/> } />
           <Route path="/Atividade" element={ <Atividade/> } />
           <Route path="/Musica" element={ <Musica/> } />
+          <Route path="/Jogos" element={ <Jogos/> } />
         </Routes>
       </Router>
      

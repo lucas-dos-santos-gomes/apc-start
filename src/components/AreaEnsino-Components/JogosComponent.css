@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500;700&display=swap');
+
+
+#JogosSec{
+    height: auto;
+    background-color: #513C7A;
+}
+
+.JogosHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D256B;
+    height: 170px;
+}
+
+.MenuJogos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.MenuJogos img{
+    width: 35%;
+}
+
+
+.imagem-decoracao{
+    width: 7%;
+    height: 10%;
+}
+
+.JogosBtn{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.JogosBtn a{
+    text-decoration: none;
+    font-family: "Source Sans 3";
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+.imagens-decoracao{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    background-color: #d9d9d923;
+}
+
+.imagens-decoracao img{
+    width: 8%;
+}
