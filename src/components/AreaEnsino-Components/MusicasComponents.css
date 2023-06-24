@@ -26,6 +26,13 @@
     width: 35%;
 }
 
+.musicas{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 80px;
+}
+
 .imagens-decoracao{
     display: flex;
     justify-content: space-evenly;

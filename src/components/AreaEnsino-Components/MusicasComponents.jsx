@@ -3,13 +3,15 @@ import "./MusicasComponents.css"
 import logo from "../../assets/images/logo.png"
 import laptopcolorido from "../../assets/images/AreaEnsino-img/laptop-colorido.png"
 import laptopsemcor from "../../assets/images/AreaEnsino-img/laptop-sem-cor.png"
-import dinossaurosemcor from "../../assets/images/AreaEnsino-img/dinossauro-sem-cor.png"
 import fliperamasemcor from "../../assets/images/AreaEnsino-img/fliperama-sem-cor.png"
 import ursolendocolorido from "../../assets/images/AreaEnsino-img/ursolendo-colorido.png"
 import dinossaurocolorido from "../../assets/images/AreaEnsino-img/dinossauro-colorido.png"
 import fliperamacolorido from "../../assets/images/AreaEnsino-img/fliperama-colorido.png"
 import ursolendosemcor from "../../assets/images/AreaEnsino-img/ursolendo-sem-cor.png"
-import borracha from "../../assets/images/AreaEnsino-img/borracha.png"
+import notasmusicais from "../../assets/images/AreaEnsino-img/notas-musicais.png"
+import bichoouvindo from "../../assets/images/AreaEnsino-img/bicho-ouvindo.png"
+import guitarras from "../../assets/images/AreaEnsino-img/guitarras.png"
+import notamusical from "../../assets/images/AreaEnsino-img/nota-musical.png"
 
 
 function MusicasComponents(){
@@ -25,6 +27,38 @@ function MusicasComponents(){
                 <a href="/Atividade"><img src={ursolendosemcor} alt="" /></a>
                 <a href="/Musica"><img src={dinossaurocolorido} alt="" /></a>
                 <a href="/Jogos"><img src={fliperamasemcor} alt="" /></a>
+            </div>
+
+            <div className="musicas">
+                <img src={notasmusicais} alt="" className="imagem-decoracao"/>
+
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+
+                <img src={bichoouvindo} alt="" className="imagem-decoracao"/>
+            </div>
+            
+            <div className="musicas">
+                <img src={guitarras} alt="" className="imagem-decoracao"/>
+
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+                <div className="musica">
+                    <img src="https://placehold.co/250x120" alt="" />
+                </div>
+
+                <img src={notamusical} alt="" className="imagem-decoracao" />
             </div>
             
             
