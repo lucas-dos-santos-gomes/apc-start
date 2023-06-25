@@ -8,6 +8,9 @@ import dinossaurocolorido from "../../assets/images/AreaEnsino-img/dinossauro-co
 import fliperamacolorido from "../../assets/images/AreaEnsino-img/fliperama-colorido.png"
 import ursolendosemcor from "../../assets/images/AreaEnsino-img/ursolendo-sem-cor.png"
 import dinossaurosemcor from "../../assets/images/AreaEnsino-img/dinossauro-sem-cor.png"
+import controle from "../../assets/images/AreaEnsino-img/controle.png"
+import computador from "../../assets/images/AreaEnsino-img/computador.png"
+import videogame from "../../assets/images/AreaEnsino-img/videogame.png"
 
 function JogosComponent(){
     return(
@@ -24,11 +27,24 @@ function JogosComponent(){
                 <a href="/Jogos"><img src={fliperamacolorido} alt="" /></a>
             </div>
 
-            <div className="JogosBtn">
-                <a href="" className="Rosa">Jogo 1</a>
-                <a href="" className="Marinho">Jogo 2</a>
-                <a href="" className="laranja">Jogo 3</a>
+            <div className="Conteudo">
+                <div className="Decoracao">
+                    <img src={controle} alt="" className="imagem-decoracao"/>
+                    <img src={computador} alt="" className="imagem-decoracao"/>
+                </div>
+
+                <div className="JogosBtn">
+                    <a href="" className="Rosa">Jogo 1</a>
+                    <a href="" className="Marinho">Jogo 2</a>
+                    <a href="" className="laranja">Jogo 3</a>
+                </div>
+
+                <div className="Decoracao">
+                    <img src={fliperamacolorido} alt="" className="imagem-decoracao"/>
+                    <img src={videogame} alt="" className="imagem-decoracao"/>
+                </div>
             </div>
+            
 
             
             <div className="imagens-decoracao">

@@ -26,6 +26,23 @@
     width: 35%;
 }
 
+.Conteudo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Decoracao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 200px;
+}
+
+.Decoracao img{
+    width: 30%;
+    height: 20%;
+    margin-top: 50px;
+}
 
 .imagem-decoracao{
     width: 7%;
