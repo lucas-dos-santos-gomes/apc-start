@@ -4,7 +4,6 @@ import Home from './pages/Home'
 import SobreNos from "./pages/SobreNos/SobreNos"
 import Area from "./pages/AreaPsicopedagogia/Area"
 import Trilha from "./pages/TrilhaConhecimento/Trilha"
-import Faq from "./pages/Faq/Faq"
 import './App.css'
 
 export default function App() {
@@ -17,7 +16,7 @@ export default function App() {
           <Route path="/SobreNos" element={ <SobreNos/> } />
           <Route path="/Area" element={ <Area/> } />
           <Route path="/Trilha" element={ <Trilha/> } />
-          <Route path="/Faq" element={ <Faq/> } />
+          <Route path="/" element={ <></> } />
         </Routes>
       </Router>
      
