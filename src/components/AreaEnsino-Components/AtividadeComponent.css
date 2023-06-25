@@ -20,6 +20,7 @@
     margin: auto;
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .MenuAtividade img{
@@ -27,13 +28,20 @@
 }
 
 .Atividades{
-    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     margin: auto;
+}
+
+.Atividades img{
+    margin-top: 60px;
 }
 
 .atividade{
     display: flex;
     justify-content: space-evenly;
+    width: 70%;
 }
 
 .atividade a{

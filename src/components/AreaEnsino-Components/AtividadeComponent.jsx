@@ -9,7 +9,9 @@ import ursolendocolorido from "../../assets/images/AreaEnsino-img/ursolendo-colo
 import dinossaurocolorido from "../../assets/images/AreaEnsino-img/dinossauro-colorido.png"
 import fliperamacolorido from "../../assets/images/AreaEnsino-img/fliperama-colorido.png"
 import borracha from "../../assets/images/AreaEnsino-img/borracha.png"
-
+import estrelas from "../../assets/images/AreaEnsino-img/estrelas.png"
+import caixamaterias from "../../assets/images/AreaEnsino-img/caixa-materiais.png"
+import lapisdecor from "../../assets/images/AreaEnsino-img/lapis-de-cor.png"
 
 function AtividadeComponent(){
     return(
@@ -27,24 +29,30 @@ function AtividadeComponent(){
             </div>
             
             <div className="Atividades">
+                <img src={borracha} alt="" className="imagem-decoracao"/>
                 <div className="atividade">
                     <a href="" className="Amarelo">Atividade 1</a>
                     <a href="" className="Jade">Atividade 2</a>
                 </div>
+                <img src={estrelas} alt="" className="imagem-decoracao"/>
             </div>
 
             <div className="Atividades">
+                <img src={estrelas} alt="" className="imagem-decoracao"/>
                 <div className="atividade">
                     <a href="" className="Barro">Atividade 3</a>
                     <a href="" className="RosaClaro">Atividade 4</a>
                 </div>
+                <img src={caixamaterias} alt="" className="imagem-decoracao"/>
             </div>
 
             <div className="Atividades">
+                <img src={lapisdecor} alt="" className="imagem-decoracao" />
                 <div className="atividade">
                     <a href="" className="RoxoAti">Atividade 5</a>
                     <a href="" className="AzulEscuro">Atividade 6</a>
                 </div>
+                <img src={estrelas} alt="" className="imagem-decoracao"/>
             </div>
                 
             <div className="imagens-decoracao">
