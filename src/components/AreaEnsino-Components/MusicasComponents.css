@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500;700&display=swap');
 
 
-#AtividadeSec{
+#MusicaSec{
     height: auto;
     background-color: #513C7A;
 }
 
-.AtividadeHeader{
+.MusicaHeader{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
     height: 170px;
 }
 
-.MenuAtividade{
+.MenuMusica{
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -22,55 +22,15 @@
     margin-top: 60px;
 }
 
-.MenuAtividade img{
+.MenuMusica img{
     width: 35%;
 }
 
-.Atividades{
-    width: 900px;
-    margin: auto;
-}
-
-.atividade{
+.musicas{
     display: flex;
     justify-content: space-evenly;
-}
-
-.atividade a{
-    font-family: "Source Sans 3";
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 40px;
-    color: #000;
+    text-align: center;
     margin-top: 80px;
-    padding: 70px;
-    border-radius: 10px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-.Amarelo{
-    background-color: #FEDB41;
-}
-
-.Jade{
-    background-color: #40BAB3;
-}
-
-.Barro{
-    background-color: #D85C67;
-}
-
-.RosaClaro{
-    background-color: #FD5E95;
-}
-
-.RoxoAti{
-    background-color: #960ECB;
-}
-
-.AzulEscuro{
-    background-color: #0081C6;
 }
 
 .imagens-decoracao{

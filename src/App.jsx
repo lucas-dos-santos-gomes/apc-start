@@ -4,6 +4,9 @@ import Home from './pages/Home'
 import SobreNos from "./pages/SobreNos/SobreNos"
 import Area from "./pages/AreaPsicopedagogia/Area"
 import Trilha from "./pages/TrilhaConhecimento/Trilha"
+import AreaDeEnsino from "./pages/VideoAula/VideoAula"
+import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
+import Atividade from "./pages/Atividade/Atividade"
 import './App.css'
 
 export default function App() {
@@ -16,7 +19,9 @@ export default function App() {
           <Route path="/SobreNos" element={ <SobreNos/> } />
           <Route path="/Area" element={ <Area/> } />
           <Route path="/Trilha" element={ <Trilha/> } />
-          <Route path="/" element={ <></> } />
+          <Route path="/AreaDeEnsino" element={ <AreaDeEnsino/> } />
+          <Route path="/VideoAula" element={ <VideoAula/> } />
+          <Route path="/Atividade" element={ <Atividade/> } />
         </Routes>
       </Router>
      
