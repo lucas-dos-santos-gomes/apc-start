@@ -11,7 +11,7 @@ function Ajuda(){
 
             <div className="ajuda-compo">
                 <div className="ajuda-info">
-                    <h2>Ficou com duvida?</h2>
+                    <h2>Ficou com dúvida?</h2>
                     <p>Diga Olá! <br /> <br/> Envie sua mensagem agora mesmo</p>
                 </div>
 
