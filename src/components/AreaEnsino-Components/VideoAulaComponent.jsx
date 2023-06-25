@@ -20,7 +20,7 @@ function VideoAulaComponent(){
         <>
         <section id="VideoAulaSec">
             <div className="VideoAulaHeader">
-                <img src={logo} alt="" />
+              <a href="/Trilha"><img src={logo} alt="" /></a>
             </div>
 
             <div className="MenuVideoAula">

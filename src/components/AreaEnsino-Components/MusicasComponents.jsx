@@ -19,7 +19,7 @@ function MusicasComponents(){
         <>
         <section id="MusicaSec">
             <div className="MusicaHeader">
-                <img src={logo} alt="" />
+                <a href="/Trilha"><img src={logo} alt="" /></a>
             </div>
 
             <div className="MenuMusica">

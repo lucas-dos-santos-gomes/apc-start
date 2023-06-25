@@ -17,7 +17,7 @@ function JogosComponent(){
         <>
         <section id="JogosSec">
             <div className="JogosHeader">
-                <img src={logo} alt="" />
+                <a href="/Trilha"><img src={logo} alt="" /></a>
             </div>
 
             <div className="MenuJogos">

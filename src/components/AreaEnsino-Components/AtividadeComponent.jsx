@@ -18,7 +18,7 @@ function AtividadeComponent(){
         <>
         <section id="AtividadeSec">
             <div className="AtividadeHeader">
-                <img src={logo} alt="" />
+                <a href="/Trilha"><img src={logo} alt="" /></a>
             </div>
 
             <div className="MenuAtividade">
