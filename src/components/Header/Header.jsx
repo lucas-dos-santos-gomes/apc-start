@@ -8,7 +8,7 @@ function Header(){
         <>
         <header id="header-principal">
             <nav className="nav-header">
-                <img id="Logo" src={logo} alt="" />
+                <img id="Logo" src={logo} alt="Logo da plataforma" />
                 <ul className="nav-list">
                     <li><Link to="/">Início</Link></li>
                     <li><a href="#Metodologiasec">Metodologia</a></li>

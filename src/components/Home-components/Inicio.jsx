@@ -15,7 +15,7 @@ function Inicio(){
             </div>
 
                 <div className="Prin-image">
-                    <img src={meninasegurandolivro} alt=""/>
+                    <img src={meninasegurandolivro} alt="imagem de menina segurando um livro"/>
                 </div>
         </section>
         </>

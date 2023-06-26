@@ -17,7 +17,7 @@ function Metodologia(){
             <div className="Cont-meto">
                 <div className="Info-meto">
                     <div className="dados">
-                        <img src={grafico} alt=""/>
+                        <img src={grafico} alt="Imagem de gráfico"/>
                         <div>
                         <h2>Baseada em <span className="Gold">dados</span></h2>
                         <h3>Abordagem pegagógica estrategica, baseada em dados que relevam as necessidades do estudante.</h3>
@@ -26,7 +26,7 @@ function Metodologia(){
                 </div>
             
                 <div className="papo">
-                    <img src={batepapo} alt=""/>
+                    <img src={batepapo} alt="imagem de balão do bate papo"/>
                     <div>
                         <h2>Alto engajamento dos <span className="Gold">alunos</span></h2>
                         <h3>Experiências dinâmicas e de alto engajamento.</h3>
@@ -36,7 +36,7 @@ function Metodologia(){
                 </div>
                 
                 <div className="img-meto">
-                    <img src={homemlampada} alt=""/>
+                    <img src={homemlampada} alt="imagem de um homem sentado em uma lampada"/>
                 </div>
             </div>
         </section>
