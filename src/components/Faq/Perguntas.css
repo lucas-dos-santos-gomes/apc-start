@@ -1,37 +1,58 @@
 #Sessao-perguntas-frequentes{
     width: 100%;
-    height: 700px;
+    height: 850px;
     background-color:#12005C;
 }
 .Titulo{
-    position: absolute;
     width: 100%;
     height:250px;
     background-color: #12005C;
     display: flex;
-    align-items: center;
     text-align: center;
-    margin-top:5px ;
+
 }
 .Interrogacao{
     width:15%;
     margin-top: 80px;
-    margin-left: 230px;
+    margin-left: 250px;
+    transform: rotate(25deg);
     
 }
 .Titulo h1{
     width: 60%;
     height:0;
-    font-size: 70px;
+    font-size: 80px;
     font-family: Nunitos;
     margin-top: 100px;
-    margin-left: 70px;
+    margin-left: 10px;
     color: #fff;
-    background-color: aqua;
+
 }
 .Interrogacao2{
     width:10%;
     margin-right: 150px;
     margin-bottom: 60px;
     margin-top: 40px;
+}
+.Lado-direito{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.Menina-duvida{
+    width: 60%;
+    height: 600px;
+    margin-top: -30px;
+}
+.Logo{
+    width: 60%;
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+.Ilustracao{
+    height: 567px;
+    margin-left: -350px;
+    margin-top: -20px;
+
 }

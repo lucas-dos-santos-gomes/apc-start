@@ -5,7 +5,7 @@ import Interrogacao2 from "../../assets/images/Faq-img/interrogacao2.png"
 import Menina from "../../assets/images/Faq-img/menina-interrogação.png"
 import Logo from "../../assets/images/Faq-img/logointerrogacao.png"
 
-import Ilustração from "../../assets/images/Faq-img/FAQ.png"
+import Ilustracao from "../../assets/images/Faq-img/FAQ.png"
 
 function Perguntas (){
     return(
@@ -22,19 +22,16 @@ function Perguntas (){
 
                 </div>
 
-                <div>
+                <div className="Lado-direito">
 
-                    <img src={Menina} alt="" />
+                    <img className="Menina-duvida" src={Menina} alt="" />
 
-                    <img src={Logo} alt="" />
+                    <img className="Logo" src={Logo} alt="" />
 
-                </div>
-
-                <div>
-
-                    <img src={Ilustração} alt="" />
+                    <img className="Ilustracao" src={Ilustracao} alt="" />
 
                 </div>
+
 
             </section>
         </>
