@@ -1,0 +1,37 @@
+#Sessao-perguntas-frequentes{
+    width: 100%;
+    height: 700px;
+    background-color:#12005C;
+}
+.Titulo{
+    position: absolute;
+    width: 100%;
+    height:250px;
+    background-color: #12005C;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top:5px ;
+}
+.Interrogacao{
+    width:15%;
+    margin-top: 80px;
+    margin-left: 230px;
+    
+}
+.Titulo h1{
+    width: 60%;
+    height:0;
+    font-size: 70px;
+    font-family: Nunitos;
+    margin-top: 100px;
+    margin-left: 70px;
+    color: #fff;
+    background-color: aqua;
+}
+.Interrogacao2{
+    width:10%;
+    margin-right: 150px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
