@@ -11,11 +11,11 @@ function Sobre(){
         <>
             <section id="SobreSec">
                 <div className="SobreTitulo">
-                    <img src={SobreNostitulo} alt="" />
+                    <img src={SobreNostitulo} alt="Titulo Sobre nós" />
                 </div>
 
                 <div className="Controle-img">
-                    <img src={ControleVideo} alt="" />
+                    <img src={ControleVideo} alt="Imagem de controle de video game" />
                 </div>
 
                 <div className="TextoSobre">
@@ -23,7 +23,7 @@ function Sobre(){
                 </div>
 
                 <div className="Peca-img">
-                    <img src={PessoaSegurandoPeca} alt="" />
+                    <img src={PessoaSegurandoPeca} alt="Imagem de pessoas segurando uma peça" />
                 </div>
             </section>
         </>

@@ -9,7 +9,7 @@ function Equipe(){
         <>
         <section id="EquipeSec">
             <div className="EquipeTitulo">
-                <img src={EquipeTitulo} alt="" />
+                <img src={EquipeTitulo} alt="Título Equipe" />
                 <hr />
             </div>
 

@@ -10,7 +10,7 @@ function Missao(){
         <>
             <section id="Missaosec">
                 <div className="MissaoTitulo">
-                    <img src={MissaoVisaoValores} alt="" />
+                    <img src={MissaoVisaoValores} alt="Titulo Missão, Visão e Valores" />
                 </div>
 
                 <div className="MiViVa">
@@ -18,7 +18,7 @@ function Missao(){
                     
                     <div className="textos">
                         <div className="Imgtextos">
-                          <img src={espada} alt="" />
+                          <img src={espada} alt="Imagem de espada" />
                           <h2><span className="yellow">Missão da História</span></h2>
                         </div>
                         <div className="texto">
@@ -30,7 +30,7 @@ function Missao(){
                     
                     <div className="textos">
                         <div className="Imgtextos">
-                            <img src={bandeira} alt="" />  
+                            <img src={bandeira} alt="Imagem de bandeira" />  
                             <h2><span className="Red">Próximas Fases</span></h2>
                         </div>
                         <div className="texto">
@@ -42,7 +42,7 @@ function Missao(){
                     
                     <div className="textos">
                         <div className="Imgtextos">
-                          <img src={coracao} alt="" />  
+                          <img src={coracao} alt="Imagem de coração" />  
                           <h2><span className="Cian">Pontos de virtude</span></h2>
                         </div>
                         <div className="texto">

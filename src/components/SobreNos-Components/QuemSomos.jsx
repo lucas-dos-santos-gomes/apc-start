@@ -9,12 +9,12 @@ function QuemSomos(){
         <>
             <section id="QuemSomos">
                 <div className="TituloQuemSomos">
-                    <img src={QuemSomosTitulo} alt="" />
+                    <img src={QuemSomosTitulo} alt="Titulo Quem somos" />
                     <hr/>
                 </div>
 
                 <div className="Lupa">
-                    <img src={Lupa} alt="" />
+                    <img src={Lupa} alt="Imagem de lupa" />
                 </div>
 
                 <div className="TextoQuemSomos">
@@ -22,7 +22,7 @@ function QuemSomos(){
                 </div>
 
                 <div className="Carasentado">
-                    <img src={CaraSentado} alt="" />
+                    <img src={CaraSentado} alt="Imagem de um homem sentado" />
                 </div>
             </section>
         </>
