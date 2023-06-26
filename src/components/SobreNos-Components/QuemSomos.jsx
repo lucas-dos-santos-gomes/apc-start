@@ -18,7 +18,7 @@ function QuemSomos(){
                 </div>
 
                 <div className="TextoQuemSomos">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam commodi minus molestias ullam corrupti perspiciatis. Eum omnis repellendus officia impedit quisquam. Reiciendis modi saepe aut alias nemo omnis ad asperiores!</p>
+                    <p>A APC START é uma plataforma criada para alfabetizar crianças com paralisia cerebral com ajuda de psicopedagogos e jogos gameficados, nossa plataforma surgiu com o intuito de dar assistência a esse publico e diminuir a defasagem de alfabetização do mesmo.</p>
                 </div>
 
                 <div className="Carasentado">
