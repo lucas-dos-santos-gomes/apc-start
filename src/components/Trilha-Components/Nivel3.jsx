@@ -21,7 +21,7 @@ function Nivel3(){
                     </div>
                     
                     <div className="GuiaLink3">
-                        <img src={Agenda} alt="" />
+                        <img src={Agenda} alt="Imagem de uma agenda" />
                         <a href="">GUIA</a>
                     </div>
                 </div>
@@ -29,15 +29,15 @@ function Nivel3(){
 
             <div className="Trilha3">
                 <div className="trilha3img">
-                    <img src={cachorro} alt="" />
+                    <img src={cachorro} alt="Imagem de um desenho de um cachorro" />
                 </div>
                 
                 <div className="bolastrilha3">
-                <a href=""><img src={bolavermelha} alt="" id="bolavermelha3"/></a>
-                    <a href=""><img src={bolaamarela} alt="" id="bolaamarela3"/></a>
-                    <a href=""><img src={bolaverde} alt="" id="bolaverde3"/></a>
-                    <a href=""><img src={bolaazul} alt=""  id="bolaazul3"/></a>
-                    <a href=""><img src={bolaroxa} alt="" id="bolaroxa3"/></a>
+                <a href=""><img src={bolavermelha} alt="bola vermelha" id="bolavermelha3"/></a>
+                    <a href=""><img src={bolaamarela} alt="bola amarela" id="bolaamarela3"/></a>
+                    <a href=""><img src={bolaverde} alt="bola verde" id="bolaverde3"/></a>
+                    <a href=""><img src={bolaazul} alt="bola azul"  id="bolaazul3"/></a>
+                    <a href=""><img src={bolaroxa} alt="bola roxa" id="bolaroxa3"/></a>
                 </div>
             </div>
         </section>
