@@ -104,14 +104,14 @@
     }
 
     .atividade a{
-        font-size: 17px;
+        font-size: 22px;
+        padding: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .Atividades img{
         width: 13%;
     }
 
-    .imagens-decoracao img{
-        
-    }
 }
