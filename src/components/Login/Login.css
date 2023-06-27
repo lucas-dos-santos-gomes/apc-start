@@ -1,0 +1,323 @@
+#login_cadastro {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 138, 255, 0.35);
+}
+
+.container {
+    position: relative;
+    width: 70vw;
+    height: 84vh;
+    background-color: #005BBB;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px 0 rgba(32, 30, 30, 0.795), 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: -50%;
+    transition: 1s ease-in-out;
+    transform: translateX(100%);
+    background: linear-gradient(270deg, #008AFF -98.86%, rgba(0, 138, 255, 1) 50%);
+    z-index: 6;
+}
+
+.signin_signup {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+}
+
+#login_cadastro form {
+    width: 40%;
+    min-width: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: simply_rounded;
+    font-weight: normal;
+    color: #FF9800;
+    margin-bottom: 10px;
+}
+
+.title2 {
+    font-size: 40px;
+    font-family: simply_rounded;
+    font-weight: normal;
+    color: #FF9800;
+    margin-bottom: 10px;
+}
+
+.input_field {
+    width: 100%;
+    color: #000;
+    background-color: #FFF;
+    margin: 10px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input_field img {
+    left: 0;
+    width: 13.5%;
+}
+
+.input_field input {
+    width: 100%;
+    flex: 5;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-indent: 10px;
+    padding: 15px 0;
+}
+
+.input_field2 {
+    width: 100%;
+    color: #000;
+    background-color: #ffffff;
+    margin: 5px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input_field2 input {
+    width: 100%;
+    flex: 5;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-indent: 20px;
+    padding: 15px 0;
+}
+
+.input_submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+}
+
+#icone3 {
+    width: 13.5%;
+    left: 0;
+}
+
+.botao4 {
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 0.856);
+    background-color: #FF9800;
+    border-color: #FF9800;
+    font: 18px simply_rounded;
+    padding: 2px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao5 {
+    width: 100%;
+    height: auto;
+    flex: 5;
+    border-radius: 50px;
+    outline: none;
+    text-indent: -13.5%;
+    color: rgb(255, 255, 255);
+    background-color: #005BBB;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao5:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.botao5::-webkit-search-cancel-button {
+    display: none;
+}
+
+.botao6 {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #005BBB;
+    border: 1px solid #FFF;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao4:hover {
+    background-color: #FF9800;
+    transform: scale(0.96);
+    cursor: pointer;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social_icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: ease 0.3s;
+}
+
+.social_icon:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.botao {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 88%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 7;
+}
+
+.botao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.botao3 {
+    color: #b47272;
+    justify-content: baseline;
+    transition: 1.1s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.painel h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*Remember*/
+
+.remember {
+    display: flex;
+    margin-left: 0px;
+}
+
+.remember span {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: #FF9800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.remember2 {
+    width: 100%;
+    margin: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: context-menu;
+}
+
+.remember2 hr {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.remember3 {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: #FDFDFD;
+    font-size: 25px;
+    cursor: context-menu;
+    column-gap: 15px;
+}
+
+.remember3 input {
+    height: 20px;
+}
+
+.remember3 p {
+    font-size: 18px;
+}
+
+.remember3 span {
+    color: #FF9800;
+    cursor: pointer;
+}
+
+
+/*Animação*/
+
+#submit {
+    width: 100%;
+}
+
+.span {
+    font-size: 12px;
+    text-align: center;
+}
+
+.support {
+    width: 100%;
+}
+
+.sign_up_mode::before {
+    transform:translateX(0);
+}

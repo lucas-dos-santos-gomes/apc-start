@@ -8,21 +8,21 @@
     background-size:cover ;
     background-repeat: no-repeat;
 }
-.container{
+.container_faq{
     position: absolute;
     width: 55%;
     height: 350px;
     margin-top: 320px;
     margin-left: 450px;
 }
-.container h1{
+.container_faq h1{
     color:#FAB84B ;
     font-size: 70px;
     text-align: center;
     margin-top: 50px;
     font-family: nunitos;
 }
-.Barra-de-pesquisa{
+.Barra_de_pesquisa{
     width: 90%;
     height: 120px;
     margin-top: 10px;

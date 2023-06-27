@@ -8,13 +8,13 @@ function Inicio (){
         <>
         <section id="Section-inicio">
 
-            <div className="container">
+            <div className="container_faq">
 
                     <h1>Como podemos te ajudar?</h1>
 
-                <div className="Barra-de-pesquisa">
+                <div className="Barra_de_pesquisa">
 
-                    <input  className="Buscar"   type="text" placeholder="Digite suas perguntas aqui" />
+                    <input  className="Buscar" type="text" placeholder="Digite suas perguntas aqui" />
 
                     <div className="lupa">
 

@@ -6,8 +6,10 @@ import Area from "./pages/AreaPsicopedagogia/Area"
 import Trilha from "./pages/TrilhaConhecimento/Trilha"
 import AreaDeEnsino from "./pages/VideoAula/VideoAula"
 import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
-import Atividade from "./pages/Atividade/Atividade"
-import Faq from "./pages/Faq/Faq"
+import Atividade from "./pages/Atividade/Atividade";
+import Logincadastro from "./pages/Login/Logincadastro"
+import Faq from "./pages/Faq/Faq";
+
 import './App.css'
 
 export default function App() {
@@ -16,7 +18,7 @@ export default function App() {
 
       <Router>
         <Routes>
-          <Route path="/" element={ <Home/> } />
+           <Route path="/" element={ <Home/> } />
           <Route path="/SobreNos" element={ <SobreNos/> } />
           <Route path="/Area" element={ <Area/> } />
           <Route path="/Trilha" element={ <Trilha/> } />
@@ -24,6 +26,7 @@ export default function App() {
           <Route path="/VideoAula" element={ <VideoAula/> } />
           <Route path="/Atividade" element={ <Atividade/> } />
           <Route path="/Faq" element={ <Faq/> } />
+          <Route path="/Logincadastro" element={ <Logincadastro/> } />
         </Routes>
       </Router>
      
