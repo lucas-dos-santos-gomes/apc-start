@@ -31,7 +31,10 @@
     justify-content: space-evenly;
     text-align: center;
     margin-top: 80px;
-    
+}
+
+.Aula{
+    width: 350px;
 }
 
 .imagem-decoracao{
@@ -87,4 +90,24 @@
 
 .imagens-decoracao img{
     width: 8%;
+}
+
+@media (max-width:425px){
+
+    .MenuVideoAula img{
+        width: 70%;
+    }
+
+    .Aulas{
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
+
+    .Aula{
+        margin: 20px;
+    }
+    .imagem-decoracao{
+        display: none;
+    }
 }
