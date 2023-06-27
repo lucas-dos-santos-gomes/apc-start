@@ -42,7 +42,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 70%;
-    flex-wrap: wrap;
 }
 
 .atividade a{
@@ -56,14 +55,10 @@
     border-radius: 10px;
     padding-top: 13px;
     padding-bottom: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .Amarelo{
     background-color: #FEDB41;
-    
 }
 
 .Jade{
@@ -95,23 +90,4 @@
 
 .imagens-decoracao img{
     width: 8%;
-}
-
-@media (max-width:425px){
-
-    .MenuAtividade img{
-        width: 70%;
-    }
-
-    .atividade a{
-        font-size: 22px;
-        padding: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .Atividades img{
-        width: 13%;
-    }
-
 }
