@@ -1,6 +1,6 @@
 import "../Faq/Perguntas.css"
 import Imagem from "../../assets/images/Faq-img/interrogacao1.png"
-import Interrogacao2 from "../../assets/images/Faq-img/interrogacao2.png"
+import Interrogacao2 from "../../assets/images/Faq-img/Interrogacao2.png"
 
 import Menina from "../../assets/images/Faq-img/menina-interrogação.png"
 import Logo from "../../assets/images/Faq-img/logointerrogacao.png"
