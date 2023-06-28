@@ -31,6 +31,8 @@
     justify-content: space-evenly;
     text-align: center;
     margin-top: 80px;
+    flex-wrap: wrap;
+    height: 500px;
 }
 
 .imagem-decoracao{
@@ -88,17 +90,21 @@
     width: 8%;
 }
 
+@media (max-width:768px){
+
+    .MenuVideoAula img{
+        width: 50%;
+    }
+
+    .imagem-decoracao{
+        display: none;
+    }
+}
+
 @media (max-width:425px){
 
     .MenuVideoAula img{
         width: 70%;
-    }
-
-    .Aulas{
-        flex-direction: column;
-        align-items: center;
-        height: 500px;
-        justify-content: space-evenly;
     }
 
     .Aula{

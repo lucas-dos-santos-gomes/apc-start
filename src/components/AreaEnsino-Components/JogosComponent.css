@@ -65,9 +65,25 @@
     width: 8%;
 }
 
+@media (max-width:768px){
+
+    .MenuJogos img{
+        width: 50%;
+    }
+
+    .imagem-decoracao{
+        display: none;
+    }
+
+}
+
 @media (max-width:425px){
 
     .MenuJogos img{
         width: 70%;
+    }
+
+    .imagem-decoracao{
+        display: none;
     }
 }

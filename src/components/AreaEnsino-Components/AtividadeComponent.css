@@ -96,6 +96,17 @@
     width: 8%;
 }
 
+@media (max-width:768px){
+
+    .MenuAtividade img{
+        width: 50%;
+    }
+
+    .imagem-decoracao{
+        display: none;
+    }
+}
+
 @media (max-width:425px){
 
     .MenuAtividade img{
@@ -103,10 +114,14 @@
     }
 
     .atividade a{
-        font-size: 17px;
+        font-size: 28px;
     }
 
     .Atividades img{
         width: 13%;
+    }
+
+    .imagem-decoracao{
+        display: none;
     }
 }
