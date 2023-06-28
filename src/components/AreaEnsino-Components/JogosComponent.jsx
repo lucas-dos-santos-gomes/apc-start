@@ -26,25 +26,18 @@ function JogosComponent(){
                 <a href="/Musica"><img src={dinossaurosemcor} alt="" /></a>
                 <a href="/Jogos"><img src={fliperamacolorido} alt="" /></a>
             </div>
-
-            <div className="Conteudo">
-                <div className="Decoracao">
+                
+                <div className="Conteudo">
                     <img src={controle} alt="" className="imagem-decoracao"/>
                     <img src={computador} alt="" className="imagem-decoracao"/>
-                </div>
-
-                <div className="JogosBtn">
-                    <a href="" className="Rosa">Jogo 1</a>
-                    <a href="" className="Marinho">Jogo 2</a>
-                    <a href="" className="laranja">Jogo 3</a>
-                </div>
-
-                <div className="Decoracao">
+                    <div className="JogosBtn">
+                        <a href="" className="Rosa">Jogo 1</a>
+                        <a href="" className="Marinho">Jogo 2</a>
+                        <a href="" className="laranja">Jogo 3</a>   
+                    </div>
                     <img src={fliperamacolorido} alt="" className="imagem-decoracao"/>
                     <img src={videogame} alt="" className="imagem-decoracao"/>
                 </div>
-            </div>
-            
 
             
             <div className="imagens-decoracao">

@@ -31,22 +31,8 @@
     justify-content: space-evenly;
 }
 
-.Decoracao{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 200px;
-}
-
-.Decoracao img{
-    width: 30%;
-    height: 20%;
-    margin-top: 50px;
-}
-
-.imagem-decoracao{
-    width: 7%;
-    height: 10%;
+.Conteudo img{
+    margin-top: 150px;
 }
 
 .JogosBtn{
@@ -77,4 +63,11 @@
 
 .imagens-decoracao img{
     width: 8%;
+}
+
+@media (max-width:425px){
+
+    .MenuJogos img{
+        width: 70%;
+    }
 }

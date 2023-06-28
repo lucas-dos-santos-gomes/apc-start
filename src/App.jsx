@@ -8,6 +8,8 @@ import AreaDeEnsino from "./pages/VideoAula/VideoAula"
 import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
 import Atividade from "./pages/Atividade/Atividade";
 import Logincadastro from "./pages/Login/Logincadastro"
+import Musica from "./pages/Musicas/Musica"
+import Jogos from "./pages/Jogos/Jogos"
 import Faq from "./pages/Faq/Faq";
 
 import './App.css'
@@ -25,6 +27,8 @@ export default function App() {
           <Route path="/AreaDeEnsino" element={ <AreaDeEnsino/> } />
           <Route path="/VideoAula" element={ <VideoAula/> } />
           <Route path="/Atividade" element={ <Atividade/> } />
+          <Route path="/Musica" element={ <Musica/> } />
+          <Route path="/Jogos" element={ <Jogos/> } />
           <Route path="/Faq" element={ <Faq/> } />
           <Route path="/Logincadastro" element={ <Logincadastro/> } />
         </Routes>
