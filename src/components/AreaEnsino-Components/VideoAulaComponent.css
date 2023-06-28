@@ -87,3 +87,24 @@
 .imagens-decoracao img{
     width: 8%;
 }
+
+@media (max-width:425px){
+
+    .MenuVideoAula img{
+        width: 70%;
+    }
+
+    .Aulas{
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        justify-content: space-evenly;
+    }
+
+    .Aula{
+        margin: 20px;
+    }
+    .imagem-decoracao{
+        display: none;
+    }
+}
