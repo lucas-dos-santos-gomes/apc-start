@@ -4,25 +4,26 @@
     width:100%;
     height:380px;
     background-color:#3C1266;
-    font-family: Nunitos;
+    font-family: Nunito;
 }
 .Assine-nossas-noticias{
     width: 100%;
     height: 180px;
 }
-h1{
+
+.Assine-nossas-noticias h1{
     font-size: 70px;
     color:#FAB84B;
     text-align: center;
     padding: 17px;
-    font-family: Nunitos;
+    font-family: Nunito;
 }
-p{
+.Assine-nossas-noticias p{
     color: #fff;
     text-align: center;
     font-size: 35px;
     padding: 20px;
-    font-family: Nunitos;
+    font-family: Nunito;
 }
 .Assinatura{
     width: 100%;
