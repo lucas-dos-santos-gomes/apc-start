@@ -139,3 +139,41 @@
 #bolaazul4{
     margin-right: -10px;
 }
+
+@media (max-width:768px){
+
+    .GuiaLink4{
+        width: 15%;
+    }
+
+    .trilha4img {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width:425px){
+
+    .Guia4Textos h2{
+        width: 150px;
+        font-size: 33px;
+    }
+
+    .Guia4Textos p{
+        font-size: 14px;
+        padding-left: 30px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .GuiaLink4{
+        width: 20%;
+    }
+
+    .GuiaLink4 a{
+        font-size: 16px;
+    }
+
+    .trilha4img {
+        margin-top: 470px;
+    }
+}

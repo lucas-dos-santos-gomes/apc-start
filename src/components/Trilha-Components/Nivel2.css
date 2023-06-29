@@ -138,3 +138,33 @@
 #bolaazul2{
     margin-right: -60px;
 }
+
+@media (max-width:768px){
+
+    .GuiaLink2{
+        width: 15%;
+    }
+}
+
+@media (max-width:425px){
+
+    .Guia2Textos h2{
+        width: 150px;
+        font-size: 33px;
+    }
+
+    .Guia2Textos p{
+        font-size: 14px;
+        padding-left: 30px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .GuiaLink2{
+        width: 20%;
+    }
+
+    .GuiaLink2 a{
+        font-size: 16px;
+    }
+}
