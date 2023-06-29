@@ -55,14 +55,15 @@
     transition: all 0.3s ease;
     opacity: 0;
     pointer-events: none;
-    width: 150px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
   }
 
   .menu-items a{
     color: #fff;
     text-decoration: none;
     font-family: "Nunito";
+    font-size: 20px;
 
   }
   
@@ -71,9 +72,26 @@
     pointer-events: auto;
   }
 
+  .menu-items li:last-child {
+    padding: 10px;
+    background-color: rgb(68, 48, 180);
+    border-radius: 20px;
+    transition: .3s;
+    text-align: center;
+  }
+
   
 
 @media (max-width:768px){
+
+  .menu-items{
+    width: 150px;
+    height: 250px;
+  }
+
+  .menu-items a{
+    font-size: 16px;
+  }
 
   .menu{
     display: flex;
