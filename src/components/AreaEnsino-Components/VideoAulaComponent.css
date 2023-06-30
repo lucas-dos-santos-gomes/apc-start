@@ -32,7 +32,7 @@
     text-align: center;
     margin-top: 80px;
     flex-wrap: wrap;
-    height: 500px;
+   
 }
 
 .imagem-decoracao{
@@ -91,6 +91,10 @@
 }
 
 @media (max-width:768px){
+
+    .Aulas{
+        height: 500px;
+    }
 
     .MenuVideoAula img{
         width: 50%;

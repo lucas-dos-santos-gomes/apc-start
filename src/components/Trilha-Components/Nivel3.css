@@ -137,3 +137,41 @@
 #bolaazul3{
     margin-right: -60px;
 }
+
+@media (max-width:768px){
+
+    .GuiaLink3{
+        width: 15%;
+    }
+
+    .trilha3img {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width:425px){
+
+    .Guia3Textos h2{
+        width: 150px;
+        font-size: 33px;
+    }
+
+    .Guia3Textos p{
+        font-size: 14px;
+        padding-left: 30px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .GuiaLink3{
+        width: 20%;
+    }
+
+    .GuiaLink3 a{
+        font-size: 16px;
+    }
+
+    .trilha3img {
+        margin-top: 550px;
+    }
+}

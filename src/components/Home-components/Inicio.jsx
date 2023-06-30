@@ -10,7 +10,7 @@ function Inicio(){
 
                 <div className="buttons">
                     <a href="/SobreNos"className="btn-sobre">Sobre Nós</a>
-                    <a href="#" className="btn-acesso">Acessar a plataforma</a>
+                    <a href="/Trilha" className="btn-acesso">Acessar a plataforma</a>
                 </div>
             </div>
 

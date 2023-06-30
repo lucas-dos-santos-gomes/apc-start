@@ -7,6 +7,7 @@ import Newsletter from "../../components/Home-components/Newsletter"
 import Footer from "../../components/Footer/Footer"
 import MenuHamburguer from "../../components/MenuHamburguer/Menu"
 
+
 function Home(){
     return(
         <>

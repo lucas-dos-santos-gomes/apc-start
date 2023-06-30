@@ -133,3 +133,41 @@
 #bolavermelha1{
     margin-left: -120px;
 }
+
+@media (max-width:768px){
+
+    .GuiaLink{
+        width: 15%;
+    }
+
+    .trilha1img {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width:425px){
+
+    .Guia1Textos h2{
+        width: 150px;
+        font-size: 33px;
+    }
+
+    .Guia1Textos p{
+        font-size: 14px;
+        padding-left: 30px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .GuiaLink{
+        width: 20%;
+    }
+
+    .GuiaLink a{
+        font-size: 16px;
+    }
+
+    .trilha1img {
+        margin-top: 350px;
+    }
+}

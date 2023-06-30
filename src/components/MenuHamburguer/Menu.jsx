@@ -17,10 +17,10 @@ const MenuHamburguer = () => {
       </div>
       <ul className="menu-items">
         <li><a href="/">Home</a></li>
-        <li><a href="/sobre">Área psicologo</a></li>
+        <li><a href="/SobreNos">Sobre Nós</a></li>
         <li><a href="/contato">Contato</a></li>
         <li><a href="/contato">Contato</a></li>
-        <li><a href="/contato">Contato</a></li>
+        <li><a href="/Trilha">Acessar a plataforma</a></li>
       </ul>
     </div>
   );
