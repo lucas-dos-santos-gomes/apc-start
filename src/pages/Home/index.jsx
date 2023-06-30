@@ -6,7 +6,6 @@ import Ajuda from "../../components/Home-components/Ajuda"
 import Newsletter from "../../components/Home-components/Newsletter"
 import Footer from "../../components/Footer/Footer"
 import MenuHamburguer from "../../components/MenuHamburguer/Menu"
-import Depoimentos from "../../components/Home-components/Depoimentos"
 
 
 function Home(){
@@ -17,9 +16,7 @@ function Home(){
             <Inicio/>
             <Metodologia/>
             <Beneficios/>
-            
             <Ajuda/>
-            
             <Newsletter/>
             <Footer/>
         </>
