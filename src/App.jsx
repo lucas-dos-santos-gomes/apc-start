@@ -11,6 +11,7 @@ import Logincadastro from "./pages/Login/Logincadastro"
 import Musica from "./pages/Musicas/Musica"
 import Jogos from "./pages/Jogos/Jogos"
 import Faq from "./pages/Faq/Faq";
+import Perfil from "./pages/Perfil/Acesso"
 
 import './App.css'
 
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/Jogos" element={ <Jogos/> } />
           <Route path="/Faq" element={ <Faq/> } />
           <Route path="/Logincadastro" element={ <Logincadastro/> } />
+          <Route path="/Perfil" element={ <Perfil/> } />
         </Routes>
       </Router>
      
