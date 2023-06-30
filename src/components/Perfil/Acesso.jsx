@@ -3,25 +3,46 @@ import "../Perfil/Acesso.css"
 import Aluno from "../../assets/images/Acesso-img/Aluno.png"
 import Profissional from "../../assets/images/Acesso-img/Profissional.png"
 
-function Acesso (){
+function Acesso(){
     return(
         <>
-        <Section id="Sessao">
+    <section id="Perfil-acesso" >
 
-            <h1>Qual Perfil você deseja acessar?</h1>
+            
+            <div className="Titulo-Perfil">
 
-            <div className="Acesso">
+                    <h1>Qual perfil você deseja acessar?</h1>
 
-                <div className="Acesso-aluno">
-                    <a href=""> <img src={Aluno} alt="" /></a>
-                </div>
-
-                <div className="Acesso-Profissional">
-                    <a href=""><img src={Profissional} alt="" /></a>
-                </div>
             </div>
 
-        </Section>
+            
+
+        <div className="Acesso">
+
+                <div className="Perfil-Aluno">
+
+                    <a href="#">
+
+                    <img className="Garoto" src={Aluno} alt="" />
+
+                    <p className="Paragrafo-aluno">Aluno</p>
+
+                    </a>
+                </div>
+
+                <div className="Perfil-Profissional" >
+                    <a href="#">
+
+                    <img className="Coruja" src={Profissional} alt="" />
+
+                    <p className="Paragrafo-profissional">Profissional</p>
+
+                    </a>
+                </div>
+            
+        </div>
+            
+    </section>
         </>
     )
 }

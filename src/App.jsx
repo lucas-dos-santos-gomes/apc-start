@@ -7,7 +7,6 @@ import Trilha from "./pages/TrilhaConhecimento/Trilha"
 import AreaDeEnsino from "./pages/VideoAula/VideoAula"
 import VideoAula from "./components/AreaEnsino-Components/VideoAulaComponent"
 import Atividade from "./pages/Atividade/Atividade";
-
 import Musica from "./pages/Musicas/Musica"
 import Jogos from "./pages/Jogos/Jogos"
 import Faq from "./pages/Faq/Faq";
