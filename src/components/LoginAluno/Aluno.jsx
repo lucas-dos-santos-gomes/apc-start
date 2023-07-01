@@ -32,7 +32,7 @@ function Aluno (){
 
                     <a href="#">ESQUECI MINHA SENHA</a>
 
-                    <a href="#">REGISTRE-SE</a>
+                    <a href="/CadastroAluno">REGISTRE-SE</a>
 
                 </div>
 

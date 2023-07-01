@@ -13,6 +13,8 @@ import Faq from "./pages/Faq/Faq";
 import Perfil from "./pages/Perfil/Acesso"
 import LoginAluno from "./pages/LoginAluno/LoginAluno"
 import LoginProfissional from "./pages/LoginProfissional/LoginProfissional"
+import CadastroAluno from "./pages/CadastroAluno/CadastroAluno"
+import CadastroProfissional from "./pages/CadastroProfissional/CadastroProfissional"
 
 import './App.css'
 
@@ -35,6 +37,9 @@ export default function App() {
           <Route path="/Perfil" element={ <Perfil/> } />
           <Route path="/LoginAluno" element={ <LoginAluno/> } />
           <Route path="/LoginProfissional" element={ <LoginProfissional/> } />
+          <Route path="/CadastroAluno" element={ <CadastroAluno/> } />
+          <Route path="/CadastroProfissional" element={ <CadastroProfissional/> } />
+          
         </Routes>
       </Router>
      
