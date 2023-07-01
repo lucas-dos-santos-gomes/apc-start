@@ -32,7 +32,7 @@ function Profissional (){
 
                     <a href="#">ESQUECI MINHA SENHA</a>
 
-                    <a href="#">REGISTRE-SE</a>
+                    <a href="/CadastroProfissional">REGISTRE-SE</a>
 
                 </div>
 
