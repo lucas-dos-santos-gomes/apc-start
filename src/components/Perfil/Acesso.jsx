@@ -21,7 +21,7 @@ function Acesso(){
 
                 <div className="Perfil-Aluno">
 
-                    <a href="#">
+                    <a href="/LoginAluno">
 
                     <img className="Garoto" src={Aluno} alt="" />
 
@@ -31,7 +31,7 @@ function Acesso(){
                 </div>
 
                 <div className="Perfil-Profissional" >
-                    <a href="#">
+                    <a href="/LoginProfissional">
 
                     <img className="Coruja" src={Profissional} alt="" />
 

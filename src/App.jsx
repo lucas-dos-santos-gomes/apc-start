@@ -11,6 +11,8 @@ import Musica from "./pages/Musicas/Musica"
 import Jogos from "./pages/Jogos/Jogos"
 import Faq from "./pages/Faq/Faq";
 import Perfil from "./pages/Perfil/Acesso"
+import LoginAluno from "./pages/LoginAluno/LoginAluno"
+import LoginProfissional from "./pages/LoginProfissional/LoginProfissional"
 
 import './App.css'
 
@@ -31,6 +33,8 @@ export default function App() {
           <Route path="/Jogos" element={ <Jogos/> } />
           <Route path="/Faq" element={ <Faq/> } />
           <Route path="/Perfil" element={ <Perfil/> } />
+          <Route path="/LoginAluno" element={ <LoginAluno/> } />
+          <Route path="/LoginProfissional" element={ <LoginProfissional/> } />
         </Routes>
       </Router>
      
