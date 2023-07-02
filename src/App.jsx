@@ -1,7 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
-import Home from './pages/Home'
-import SobreNos from "./pages/SobreNos/SobreNos"
 // import Area from "./pages/AreaPsicopedagogia/Area"
 // import Trilha from "./pages/TrilhaConhecimento/Trilha"
 // import AreaDeEnsino from "./pages/VideoAula/VideoAula"
@@ -9,39 +6,15 @@ import SobreNos from "./pages/SobreNos/SobreNos"
 // import Atividade from "./pages/Atividade/Atividade";
 // import Musica from "./pages/Musicas/Musica"
 // import Jogos from "./pages/Jogos/Jogos"
-import Faq from "./pages/Faq/Faq";
-import Perfil from "./pages/Perfil/Acesso"
-import LoginAluno from "./pages/LoginAluno/LoginAluno"
-import LoginProfissional from "./pages/LoginProfissional/LoginProfissional"
-import CadastroAluno from "./pages/CadastroAluno/CadastroAluno"
-import CadastroProfissional from "./pages/CadastroProfissional/CadastroProfissional"
+
+import Authentication from "./routes/Authentication.jsx";
 
 import './App.css'
 
 export default function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={ <Home/> } />
-          <Route path="/SobreNos" element={ <SobreNos/> } />
-          <Route path="/Faq" element={ <Faq/> } />
-          <Route path="/Perfil" element={ <Perfil/> } />
-          <Route path="/LoginAluno" element={ <LoginAluno/> } />
-          <Route path="/LoginProfissional" element={ <LoginProfissional/> } />
-          <Route path="/CadastroAluno" element={ <CadastroAluno/> } />
-          <Route path="/CadastroProfissional" element={ <CadastroProfissional/> } />
-
-          {/* <Route path="/Area" element={ <Area/> } />
-          <Route path="/Trilha" element={ <Trilha/> } />
-          <Route path="/AreaDeEnsino" element={ <AreaDeEnsino/> } />
-          <Route path="/VideoAula" element={ <VideoAula/> } />
-          <Route path="/Atividade" element={ <Atividade/> } />
-          <Route path="/Musica" element={ <Musica/> } />
-          <Route path="/Jogos" element={ <Jogos/> } /> */}
-
-        </Routes>
-      </Router>
+      <Authentication />
     </>
   )
 }
