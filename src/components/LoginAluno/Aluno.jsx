@@ -20,18 +20,41 @@ function Aluno (){
         setPassword(e.target.value);
     }
 
-    useEffect(() => {
+    /*useEffect(() => {
         axios.get(`${BASE_URL}/aluno`)
             .then(response => {
                 console.log(response.data);
             });
-    });
+    });*/
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        let responseApi;
+
+        axios.get(`${BASE_URL}/aluno/${email}/${password}`).then(response => {
+            responseApi = response.data;
+            alert(responseApi);
+            if(responseApi == "Login realizado com sucesso!") {
+                navigate("/trilha");
+            } else if(responseApi == "Esse e-mail não foi cadastrado") {
+                setEmail("");
+                setPassword("");
+            } else {
+                setPassword("");
+            }
+        }).catch(err => {
+            alert("ERRO! " + err);
+            navigate("/LoginAluno");
+        });
+    
+    }
 
     return(
         <>
         <section id="Login">
 
-            <form className="Principal">
+            <form onSubmit={handleSubmit} className="Principal">
 
                 <div className="Astronauta">
                    <img src={Astronauta} alt="" />
@@ -44,9 +67,9 @@ function Aluno (){
 
                 <div className="Barras">
 
-                    <input className="Email" type="email" placeholder="E-mail" value={email} onChange={handleEmailChange} />
+                    <input className="Email" type="email" placeholder="E-mail" value={email} onChange={handleEmailChange} required />
 
-                    <input className="Senha" type="password" placeholder="Senha" value={password} onChange={handlePasswordChange} />
+                    <input className="Senha" type="password" placeholder="Senha" value={password} onChange={handlePasswordChange} required />
 
                 </div>
 
