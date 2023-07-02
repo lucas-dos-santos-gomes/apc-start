@@ -91,7 +91,7 @@
     margin-top: 70px;
     margin-left: 300px;
 }
-.Botao-entrar button{
+.Botao-entrar input{
     width: 40%;
     padding: 18px;
     border: 0;
@@ -100,7 +100,8 @@
     font-size: 20px;
     background-color: #C6A4FF;
     cursor: pointer;
+    transition: .3s;
 }
-.Botao-entrar Button:hover{
-    transform: translateX(10px) scale(1.2);
+.Botao-entrar input:hover{
+    transform: scale(1.2);
 }

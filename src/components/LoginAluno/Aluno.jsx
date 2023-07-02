@@ -58,9 +58,7 @@ function Aluno (){
 
                 <div className="Botao-entrar">
 
-                    <a href="/trilha">
-                        <button>Entrar</button>
-                    </a>
+                    <input type="submit" value="Entrar" />
                 </div>
 
                 </div>
