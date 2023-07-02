@@ -2,7 +2,7 @@ import "../LoginProfissional/Profissional.css"
 
 import Logo from "../../assets/images/LoginProfissional-img/logoapc.png"
 import Boneco from "../../assets/images/LoginProfissional-img/LogoProfissional.png"
-import Setas from "../../assets/images/LoginProfissional-img/setas.png"
+import Setas from "../../assets/images/LoginProfissional-img/Setas.png"
 
 function Profissional (){
     return(
