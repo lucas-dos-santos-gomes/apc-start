@@ -4,8 +4,11 @@ import Astronauta from "../../assets/images/LoginAluno-img/Astronauta.png"
 import Setas from "../../assets/images/LoginAluno-img/Setas.png"
 import axios from "axios"
 import { useEffect, useState } from "react"
+import { BASE_URL } from "../../utils/requests"
+import { useNavigate } from "react-router-dom"
 
 function Aluno (){
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -18,7 +21,7 @@ function Aluno (){
     }
 
     useEffect(() => {
-        axios.get("http://localhost:8080/aluno")
+        axios.get(`${BASE_URL}/aluno`)
             .then(response => {
                 console.log(response.data);
             });
@@ -28,7 +31,7 @@ function Aluno (){
         <>
         <section id="Login">
 
-            <div className="Principal">
+            <form className="Principal">
 
                 <div className="Astronauta">
                    <img src={Astronauta} alt="" />
@@ -57,13 +60,12 @@ function Aluno (){
                 </div>
 
                 <div className="Botao-entrar">
-
                     <input type="submit" value="Entrar" />
                 </div>
 
                 </div>
 
-            </div>
+            </form>
             
                 <div className="Bola-setas">
 
