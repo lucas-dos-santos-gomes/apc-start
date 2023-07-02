@@ -2,8 +2,28 @@ import "../LoginAluno/Aluno.css"
 
 import Astronauta from "../../assets/images/LoginAluno-img/Astronauta.png"
 import Setas from "../../assets/images/LoginAluno-img/Setas.png"
+import axios from "axios"
+import { useEffect, useState } from "react"
 
 function Aluno (){
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    }
+
+    const handlePasswordChange = (e) => {
+        setPassword(e.target.value);
+    }
+
+    useEffect(() => {
+        axios.get("http://localhost:8080/aluno")
+            .then(response => {
+                console.log(response.data);
+            });
+    });
+
     return(
         <>
         <section id="Login">
@@ -21,9 +41,9 @@ function Aluno (){
 
                 <div className="Barras">
 
-                    <input className="Email" type="email" placeholder="E-mail" />
+                    <input className="Email" type="email" placeholder="E-mail" value={email} onChange={handleEmailChange} />
 
-                    <input className="Senha" type="password" placeholder="Senha" />
+                    <input className="Senha" type="password" placeholder="Senha" value={password} onChange={handlePasswordChange} />
 
                 </div>
 
@@ -38,7 +58,7 @@ function Aluno (){
 
                 <div className="Botao-entrar">
 
-                    <a href="/">
+                    <a href="/trilha">
                         <button>Entrar</button>
                     </a>
                 </div>
