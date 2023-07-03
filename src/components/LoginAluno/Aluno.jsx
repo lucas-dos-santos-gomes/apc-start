@@ -3,7 +3,7 @@ import "../LoginAluno/Aluno.css"
 import Astronauta from "../../assets/images/LoginAluno-img/Astronauta.png"
 import Setas from "../../assets/images/LoginAluno-img/Setas.png"
 import axios from "axios"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { BASE_URL } from "../../utils/requests"
 import { useNavigate } from "react-router-dom"
 
