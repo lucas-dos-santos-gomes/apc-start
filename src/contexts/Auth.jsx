@@ -1,19 +1,27 @@
 import { createContext, useEffect, useState } from "react";
 import { BASE_URL } from "../utils/requests";
+import axios from "axios";
 
 export const AuthContext = createContext({});
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState();
 
-  useEffect(() => {
-    const userLogged = localStorage.getItem("user_logged");
+  const verifyLogged = () => {
+    const userLogged = JSON.parse(localStorage.getItem("user_logged"));
     if(userLogged) {
       axios.get(`${BASE_URL}/aluno/${userLogged.email}`).then(response => {
-        console.log(response);
+        if(userLogged.id == response.data.id && userLogged.email == response.data.email) {
+          setUser(response.data);
+        } else {
+          setUser(null);
+          localStorage.removeItem("user_logged");
+        }
       });
     }
-  });
+  }
 
-  return <AuthContext.Provider>{children}</AuthContext.Provider>;
+  useEffect(verifyLogged, []);
+
+  return <AuthContext.Provider value={{ user, signed: !!user, verifyLogged }}>{children}</AuthContext.Provider>;
 };

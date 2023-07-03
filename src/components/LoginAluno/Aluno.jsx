@@ -36,6 +36,9 @@ function Aluno (){
             responseApi = response.data;
             alert(responseApi);
             if(responseApi == "Login realizado com sucesso!") {
+                axios.get(`${BASE_URL}/aluno/${email}`).then(resp => {
+                    localStorage.setItem("user_logged", JSON.stringify({id: resp.data.id, email: email}));
+                });
                 navigate("/trilha");
             } else if(responseApi == "Esse e-mail não foi cadastrado") {
                 setEmail("");
