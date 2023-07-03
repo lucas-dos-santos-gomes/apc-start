@@ -1,7 +1,7 @@
 import Authentication from "./routes/Authentication.jsx";
 
-import './App.css'
-import { AuthProvider } from "./contexts/Auth.jsx";
+import './App.css';
+import { AuthProvider } from "./contexts/auth.jsx";
 
 export default function App() {
   return (
