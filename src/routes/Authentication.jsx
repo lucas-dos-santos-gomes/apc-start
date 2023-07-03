@@ -20,8 +20,9 @@ import Jogos from "../pages/Jogos/Jogos.jsx";
 import useAuth from "../hooks/useAuth.js";
 
 const Private = ({ Item }) => {
-  const { signed } = useAuth();
-  return signed > 0 ? <Item /> : <LoginAluno />;
+  const { verifyLogged } = useAuth();
+  verifyLogged();
+  return localStorage.getItem("user_logged") ? <Item /> : <LoginAluno />;
 }
 
 export default function Authentication() {

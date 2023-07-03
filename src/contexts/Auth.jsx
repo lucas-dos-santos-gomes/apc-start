@@ -23,5 +23,5 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(verifyLogged, []);
 
-  return <AuthContext.Provider value={{ user, signed: !!user, verifyLogged }}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{ user, verifyLogged }}>{children}</AuthContext.Provider>;
 };
