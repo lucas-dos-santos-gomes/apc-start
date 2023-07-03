@@ -15,7 +15,7 @@ function Header(){
                     <li><a href="#Beneficiossec">Benefícios</a></li>
                     <li><a href="#Ajudasec">Ajuda</a></li>
                     <li><a href="#">Depoimentos</a></li> 
-                    <li><a href="/Trilha">Plataforma</a></li>
+                    <li><a href="/LoginAluno">Plataforma</a></li>
                 </ul>
             </nav>
         </header>

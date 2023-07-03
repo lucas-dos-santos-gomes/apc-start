@@ -1,0 +1,91 @@
+#Login{
+    width: 100%;
+    height: 745px;
+    background-color: rgb(255, 255, 255);
+}
+.Principal{
+    display: flex;
+}
+.inserir-dados{
+    width:50%;
+    height: 745px;
+    background-color: #A08FFC;
+}
+.Barras-cadastro{
+    width: 70%;
+    height: 280px;
+    padding: 150px;
+    margin: 0;
+    margin-left: -50px;
+}
+.Nome{
+    width:100%;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+.E-mail{
+    width:100%;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.Senha-cadastro{
+    width:100%;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.Confirmar-senha{
+    width:100%;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.Botao-cadastrar{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.Botao-cadastrar input{
+    width: 50%;
+    padding: 18px;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #31125A;
+    cursor: pointer;
+    transition: .3s;
+}
+.Botao-cadastrar input:hover{
+    transform: scale(1.1);
+}
+.Botao-cadastrar input:active {
+    transform: scale(0.95);
+}
+.Astronauta{
+    width: 50%;
+    height: 745px;
+    background-color: #31125A;
+}
+.Astronauta img{
+    width: 75%;
+    margin-left: 100px;
+}
+.Bola-setas{
+    position:absolute;
+    width: 5%;
+    margin-top: -400px;
+    margin-left: 730px;
+    
+}
+.Bola-setas img{
+    width: 100%;
+}

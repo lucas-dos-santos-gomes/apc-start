@@ -1,0 +1,82 @@
+#Login{
+    width: 100%;
+    height: 745px;
+    background-color: rgb(255, 255, 255);
+}
+.Principal{
+    display: flex;
+}
+.Logo-apc{
+    width: 50%;
+    height: 745px;
+    background-color: #31125A;
+}
+.Logo-apc img{
+    width: 80%;
+    margin-left: 50px;
+
+}
+.inserir-dados{
+    width:50%;
+    height: 745px;
+    background-color: #A08FFC;
+}
+.Logo-profissional{
+    width: 30%;
+    margin-top:30px ;
+    margin-left: 280px;
+}
+.Barras{
+    width: 50%;
+    height: 200px;
+    margin: auto ;
+    margin-top: 50px;
+}
+.Email{
+    width:100%;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+.Senha{
+    width:100%;
+    margin-top: 40px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+.Bola-setas{
+    position:absolute;
+    width: 5%;
+    margin-top: -380px;
+    margin-left: 725px;
+    
+}
+.Bola-setas img{
+    width: 100%;
+}
+.registre-se-ou-esqueci-senha{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.Botao-entrar{
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.Botao-entrar button{
+    width: 40%;
+    padding: 18px;
+    border: 0;
+    border-radius: 30px;
+    color: #000;
+    font-size: 20px;
+    background-color: #C6A4FF;
+    cursor: pointer;
+}
+.Botao-entrar Button:hover{
+    transform: translateX(10px) scale(1.2);
+}

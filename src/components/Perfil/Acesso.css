@@ -1,0 +1,65 @@
+#Perfil-acesso{
+    position:absolute;
+    width: 100%;
+    height: 745px;
+    background-color:#54407C;
+}
+.Titulo-Perfil{
+   width: 100%;
+   height: 200px;
+   text-align: center;
+}
+.Titulo-Perfil h1{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 50px;
+    color: #fff;
+}
+
+.Acesso{
+    width: 80%;
+    height: 450px;
+    margin-left: 150px;
+    display: flex;
+    gap: 120px;
+}
+.Perfil-Aluno{
+    width: 30%;
+    height: 400px;
+    margin-top: 30px;
+    background-color:#DDFFFD;
+    margin-left: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.Garoto{
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.Paragrafo-aluno{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.Perfil-Profissional{
+    width: 30%;
+    height: 400px;
+    background-color:#FFE5F9;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.Coruja{
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.Paragrafo-profissional{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
