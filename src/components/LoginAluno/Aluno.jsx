@@ -55,8 +55,8 @@ function Aluno (){
 
                 <div className="inserir-dados">
 
-                    <p><span className="A">A</span> <span className="P">P</span> 
-                <span className="C">C</span> <span className="S">S</span> <span className="T">T</span> <span className="A">A</span> <span className="R">R</span> <span className="T">T</span></p>
+                    <p><span className="A">A</span><span className="P">P</span><span className="C">C   </span> 
+                    <span className="S">S</span><span className="T">T</span><span className="A2">A</span><span className="R">R</span><span className="T2">T</span></p>
 
                 <div className="Barras">
 
