@@ -7,16 +7,13 @@ import { useNavigate } from "react-router-dom";
 export default function UserButton() {
   const navigate = useNavigate();
   const [display, setDisplay] = useState("");
-  const [leave, setLeave] = useState("");
 
   const handleDisplay = () => {
     setDisplay(display == "" ? "active" : "");
   }
 
   const handleLeave = () => {
-    setLeave("clicked");
-    if(leave === "clicked") localStorage.removeItem("user_logged");
-    setLeave("");
+    localStorage.removeItem("user_logged");
     navigate("/LoginAluno");
   }
 
