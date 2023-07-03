@@ -29,11 +29,8 @@ function Aluno (){
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
-        let responseApi;
-
         axios.get(`${BASE_URL}/aluno/${email}/${password}`).then(response => {
-            responseApi = response.data;
+            const responseApi = response.data;
             alert(responseApi);
             if(responseApi == "Login realizado com sucesso!") {
                 axios.get(`${BASE_URL}/aluno/${email}`).then(resp => {
@@ -50,7 +47,6 @@ function Aluno (){
             alert("ERRO! " + err);
             navigate("/LoginAluno");
         });
-    
     }
 
     return(

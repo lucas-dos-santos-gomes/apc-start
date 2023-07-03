@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     if(userLogged) {
       axios.get(`${BASE_URL}/aluno/${userLogged.email}`).then(response => {
         if(userLogged.id == response.data.id && userLogged.email == response.data.email) {
-          setUser(response.data);
+          setUser({ id: response.data.id, email: response.data.email });
         } else {
           setUser(null);
           localStorage.removeItem("user_logged");
