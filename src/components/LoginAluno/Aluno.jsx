@@ -20,13 +20,6 @@ function Aluno (){
         setPassword(e.target.value);
     }
 
-    /*useEffect(() => {
-        axios.get(`${BASE_URL}/aluno`)
-            .then(response => {
-                console.log(response.data);
-            });
-    });*/
-
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.get(`${BASE_URL}/aluno/${email}/${password}`).then(response => {
@@ -35,11 +28,12 @@ function Aluno (){
             if(responseApi == "Login realizado com sucesso!") {
                 axios.get(`${BASE_URL}/aluno/${email}`).then(resp => {
                     localStorage.setItem("user_logged", JSON.stringify({id: resp.data.id, email: email}));
+                    navigate("/trilha");
                 });
-                navigate("/trilha");
             } else if(responseApi == "Esse e-mail não foi cadastrado") {
                 setEmail("");
                 setPassword("");
+                navigate("/CadastroAluno");
             } else {
                 setPassword("");
             }

@@ -53,7 +53,7 @@
     margin-top: 50px;
     margin-left: 240px;
 }
-.Botao-cadastrar button{
+.Botao-cadastrar input{
     width: 50%;
     padding: 18px;
     border: 0;
@@ -62,9 +62,13 @@
     font-size: 20px;
     background-color: #31125A;
     cursor: pointer;
+    transition: .3s;
 }
-.Botao-cadastrar Button:hover{
-    transform: translateX(10px) scale(1.2);
+.Botao-cadastrar input:hover{
+    transform: scale(1.1);
+}
+.Botao-cadastrar input:active {
+    transform: scale(0.95);
 }
 .Astronauta{
     width: 50%;
