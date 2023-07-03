@@ -1,21 +1,31 @@
 import { useState } from "react";
 import Logout from "./Logout/index.jsx";
 import UserIcon from "./UserIcon/index.jsx";
-import { UserButtonStyled } from "./styled.js";
+import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 export default function UserButton() {
+  const navigate = useNavigate();
   const [display, setDisplay] = useState("");
+  const [leave, setLeave] = useState("");
 
   const handleDisplay = () => {
     setDisplay(display == "" ? "active" : "");
   }
 
+  const handleLeave = () => {
+    setLeave("clicked");
+    if(leave === "clicked") localStorage.removeItem("user_logged");
+    setLeave("");
+    navigate("/LoginAluno");
+  }
+
   return (
-    <UserButtonStyled>
+    <div className="user-content">
       <Logout classe={display}>
-        <button className="button-logout">Sair da conta</button>
+        <button onClick={handleLeave} className="button-logout">Sair da conta</button>
       </Logout>
       <UserIcon classe={display} handle={handleDisplay} />
-    </UserButtonStyled>
+    </div>
   );
 }
