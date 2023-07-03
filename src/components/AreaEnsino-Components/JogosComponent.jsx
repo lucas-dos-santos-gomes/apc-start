@@ -31,9 +31,9 @@ function JogosComponent(){
                     <img src={controle} alt="" className="imagem-decoracao"/>
                     <img src={computador} alt="" className="imagem-decoracao"/>
                     <div className="JogosBtn">
-                        <a href="" className="Rosa">Jogo 1</a>
-                        <a href="" className="Marinho">Jogo 2</a>
-                        <a href="" className="laranja">Jogo 3</a>   
+                        <a href="https://jogo-da-memoria-plum.vercel.app/" className="Rosa">Jogo 1</a>
+                        <a href="https://jogo-da-forca-lemon.vercel.app/" className="Marinho">Jogo 2</a>
+                        <a href="/jogos" className="laranja">Jogo 3</a>   
                     </div>
                     <img src={fliperamacolorido} alt="" className="imagem-decoracao"/>
                     <img src={videogame} alt="" className="imagem-decoracao"/>
