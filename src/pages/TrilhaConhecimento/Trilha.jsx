@@ -4,6 +4,7 @@ import Nivel3 from "../../components/Trilha-Components/Nivel3"
 import Nivel4 from "../../components/Trilha-Components/Nivel4"
 import Footer from "../../components/Footer/Footer"
 import MenuHamburguer from "../../components/MenuHamburguer/Menu"
+import UserButton from "../../components/UserButton"
 
 function Trilha(){
     return(
@@ -13,6 +14,7 @@ function Trilha(){
             <Nivel2/>
             <Nivel3/>
             <Nivel4/>
+            <UserButton />
             <Footer/>
         </>
     )
