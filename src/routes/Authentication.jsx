@@ -5,11 +5,8 @@ import Home from "../pages/Home/index.jsx";
 import SobreNos from "../pages/SobreNos/SobreNos.jsx";
 import Faq from "../pages/Faq/Faq.jsx";
 
-import Perfil from "../pages/Perfil/Acesso.jsx";
 import LoginAluno from "../pages/LoginAluno/LoginAluno.jsx";
-import LoginProfissional from "../pages/LoginProfissional/LoginProfissional.jsx";
 import CadastroAluno from "../pages/CadastroAluno/CadastroAluno.jsx";
-import CadastroProfissional from "../pages/CadastroProfissional/CadastroProfissional.jsx";
 
 import Trilha from "../pages/TrilhaConhecimento/Trilha.jsx";
 import VideoAula from "../pages/VideoAula/VideoAula.jsx";
@@ -34,9 +31,6 @@ export default function Authentication() {
           <Route path="/SobreNos" element={ <SobreNos/> } />
           <Route path="/Faq" element={ <Faq/> } />
 
-          <Route path="/Perfil" element={ <Perfil/> } />
-          <Route path="/LoginProfissional" element={ <LoginProfissional/> } />
-          <Route path="/CadastroProfissional" element={ <CadastroProfissional/> } />
           <Route exact path="/LoginAluno" element={ <LoginAluno/> } />
           <Route exact path="/CadastroAluno" element={ <CadastroAluno />} />
 
